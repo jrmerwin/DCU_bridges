@@ -1,0 +1,90 @@
+{
+  "DCU_Mass_Cell_36.py": {
+    "bytes": 39847,
+    "sha256": "439dbfd1cce8273812cc556f918c5df747acefb47f55f6cdf03c87823d8dc300"
+  },
+  "README.md": {
+    "bytes": 3064,
+    "sha256": "a0051147f5a1b78a46134c5d535bd2a40d6d58fc90ab1614c26007c368cb6ae4"
+  },
+  "DCU_Mass_Cell_36_TESTS.txt": {
+    "bytes": 1034,
+    "sha256": "39c39cc64250f26736269ea06eda106f87727b30981542f718000d36412dc235"
+  },
+  "DCU_Mass_Cell_36_NOTES.md": {
+    "bytes": 14528,
+    "sha256": "97e2cde305c06578de9db0ad63f34faa8c8d59799c215d78f4e78b4b6ac6a6c6"
+  },
+  "DCU_Mass_Cell_36_TESTS.json": {
+    "bytes": 1034,
+    "sha256": "39c39cc64250f26736269ea06eda106f87727b30981542f718000d36412dc235"
+  },
+  "SCOPE_BEFORE_RUN.md": {
+    "bytes": 3214,
+    "sha256": "ec1e2236558b81538025f3d4e22c9ab9a97c94c5ad9a2f0732c88b23f03a1a0a"
+  },
+  "reproduce.py": {
+    "bytes": 1450,
+    "sha256": "7eea402601a13c0e3781bef09e8b6085db33cb6aa71826fb46186e126fe6adcb"
+  },
+  "DCU_Mass_Cell_36_RESULTS.json.gz": {
+    "bytes": 56440,
+    "sha256": "df801db1e4147b3d0491980d3a6d94dccb9e703c0e8b05d43ef34a6fdc6cff83"
+  },
+  "FRESH_DIRECTORY_REPLAY.txt": {
+    "bytes": 165,
+    "sha256": "80eab5574b3b1108e472e2116a01d4088efd8d7fcd9c10181a452ab906066e9b"
+  },
+  "validate.py": {
+    "bytes": 8010,
+    "sha256": "775e22ac7d863a9b63a2cb7ded9508bf08c1d7f31c98c95643f32efa476e3bf7"
+  },
+  "DCU_Mass_Cell_36_output.txt": {
+    "bytes": 2922,
+    "sha256": "d7f607fa750407c1a4bf795e27b1c371744ebc4fcf28fc3096434d8978457e00"
+  },
+  "reference/fixture36.json": {
+    "bytes": 115415,
+    "sha256": "cbd23c6a50ceda73cfdaa312b0b374cc505d4d698f41a3e52e998726bcab6829"
+  },
+  "reference/DCU_Mass_Cell_25.py": {
+    "bytes": 18227,
+    "sha256": "ed3d8a52fbf36b895efd1f7bb6e346c8ddfd2ef78bc4e0f4f4a836d7a9fe9beb"
+  },
+  "reference/native_constructor.py": {
+    "bytes": 3139,
+    "sha256": "85bf70a20dece885de6d855f0b5a67189245bcb68ad69119df15016a56c8fb57"
+  },
+  "reference/node_tables/H0_s20350920.nodes.tsv": {
+    "bytes": 545802,
+    "sha256": "7a21fc7767854f672dc3a74c50234f9200b519f7df469c6b352ab5b5bac3a194"
+  },
+  "reference/node_tables/H0_s20350923.nodes.tsv": {
+    "bytes": 601424,
+    "sha256": "725371bfe795012f03f0c8e8064cb8dfc1601ec28ad501e70d0996d977bc86f3"
+  },
+  "reference/node_tables/H6_s20350922.nodes.tsv": {
+    "bytes": 744123,
+    "sha256": "86f91a1d9dc7ba391eb8f3d90da89ee5801198372feb2034ec1b6a547d36c221"
+  },
+  "reference/node_tables/H0_s20350922.nodes.tsv": {
+    "bytes": 661835,
+    "sha256": "3057660877cf05287e21b54720aa2c3380e4f00d88cda4f1cb91332cb40f9a17"
+  },
+  "reference/node_tables/H6_s20350920.nodes.tsv": {
+    "bytes": 1016235,
+    "sha256": "66d8e91906010ef6a20e615f95ace064c6479f459775df1e2b2468aeb492c3de"
+  },
+  "reference/node_tables/H6_s20350921.nodes.tsv": {
+    "bytes": 854672,
+    "sha256": "1c1f87813d5888bc4e75df647088f957e062a72b68dcaf89b6db5bcc48f16018"
+  },
+  "reference/node_tables/H6_s20350923.nodes.tsv": {
+    "bytes": 849143,
+    "sha256": "5f5f3aa5ed58db4da57ea07224c1719fef86276adffb7881665a7479216e9aae"
+  },
+  "reference/node_tables/H0_s20350921.nodes.tsv": {
+    "bytes": 569647,
+    "sha256": "8aad4b72bec869e70b27b562dc8c19d4c7a11315594b60cda6369e5790544232"
+  }
+}

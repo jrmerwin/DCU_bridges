@@ -1,0 +1,413 @@
+{
+  "protocol": "fixed Cell 14 source prescriptions; empirical summary consistency check",
+  "checked_date": "2026-09-19",
+  "sources": {
+    "CODATA2022": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "JUNO59d": "https://arxiv.org/abs/2511.14593v1",
+    "DESI2025": "https://arxiv.org/html/2503.14738v3#S6",
+    "DESI2026": "https://arxiv.org/html/2607.27410v3#S6.SS3"
+  },
+  "electron_input_eV": {
+    "numerator": 51099895069,
+    "denominator": 100000,
+    "decimal": 510998.95069
+  },
+  "electron_uncertainty_eV": {
+    "numerator": 1,
+    "denominator": 6250,
+    "decimal": 0.00016
+  },
+  "predictions": {
+    "muon_electron": {
+      "numerator": 411,
+      "denominator": 2,
+      "decimal": 205.5
+    },
+    "matter_fraction": {
+      "numerator": 5,
+      "denominator": 17,
+      "decimal": 0.29411764705882354
+    },
+    "solar_eV2": {
+      "numerator": 2611199276062810514761,
+      "denominator": 34674803505889280000000000,
+      "decimal": 7.530538062369455e-05
+    }
+  },
+  "comparisons": {
+    "muon_electron": {
+      "prediction": {
+        "numerator": 411,
+        "denominator": 2,
+        "decimal": 205.5
+      },
+      "value": {
+        "numerator": 2067682827,
+        "denominator": 10000000,
+        "decimal": 206.7682827
+      },
+      "error": {
+        "numerator": 23,
+        "denominator": 5000000,
+        "decimal": 4.6e-06
+      },
+      "source": "CODATA2022",
+      "convention": "rest-mass ratio",
+      "difference": {
+        "numerator": -12682827,
+        "denominator": 10000000,
+        "decimal": -1.2682827
+      },
+      "relative_difference": {
+        "numerator": -4227609,
+        "denominator": 689227609,
+        "decimal": -0.006133835825488529
+      },
+      "input_scale_error": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "standardized_residual": -275713.63043478265
+    },
+    "matter_fraction": {
+      "prediction": {
+        "numerator": 5,
+        "denominator": 17,
+        "decimal": 0.29411764705882354
+      },
+      "value": {
+        "numerator": 753,
+        "denominator": 2500,
+        "decimal": 0.3012
+      },
+      "error": {
+        "numerator": 79,
+        "denominator": 10000,
+        "decimal": 0.0079
+      },
+      "source": "DESI2026",
+      "convention": "DR2 galaxy BAO + Lyman-alpha full shape; flat LCDM",
+      "difference": {
+        "numerator": -301,
+        "denominator": 42500,
+        "decimal": -0.00708235294117647
+      },
+      "relative_difference": {
+        "numerator": -301,
+        "denominator": 12801,
+        "decimal": -0.023513787985313648
+      },
+      "input_scale_error": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "standardized_residual": -0.8965003723008191
+    },
+    "solar_eV2": {
+      "prediction": {
+        "numerator": 2611199276062810514761,
+        "denominator": 34674803505889280000000000,
+        "decimal": 7.530538062369455e-05
+      },
+      "value": {
+        "numerator": 3,
+        "denominator": 40000,
+        "decimal": 7.5e-05
+      },
+      "error": {
+        "numerator": 3,
+        "denominator": 2500000,
+        "decimal": 1.2e-06
+      },
+      "source": "JUNO59d",
+      "convention": "first 59.1 days; normal ordering; published three-flavor fit",
+      "difference": {
+        "numerator": 10589013121114514761,
+        "denominator": 34674803505889280000000000,
+        "decimal": 3.0538062369455223e-07
+      },
+      "relative_difference": {
+        "numerator": 10589013121114514761,
+        "denominator": 2600610262941696000000,
+        "decimal": 0.004071741649260697
+      },
+      "input_scale_error": {
+        "numerator": 51099895069,
+        "denominator": 1083587609559040000000000,
+        "decimal": 4.715806513309507e-14
+      },
+      "standardized_residual": 0.25448385307879334
+    }
+  },
+  "matter_sensitivity": [
+    {
+      "label": "2025 DR2 BAO only",
+      "prediction": {
+        "numerator": 5,
+        "denominator": 17,
+        "decimal": 0.29411764705882354
+      },
+      "value": {
+        "numerator": 119,
+        "denominator": 400,
+        "decimal": 0.2975
+      },
+      "error": {
+        "numerator": 43,
+        "denominator": 5000,
+        "decimal": 0.0086
+      },
+      "source": "DESI2025",
+      "convention": "flat LCDM",
+      "difference": {
+        "numerator": -23,
+        "denominator": 6800,
+        "decimal": -0.0033823529411764705
+      },
+      "relative_difference": {
+        "numerator": -23,
+        "denominator": 2023,
+        "decimal": -0.011369253583786456
+      },
+      "input_scale_error": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "standardized_residual": -0.393296853625171
+    },
+    {
+      "label": "2026 Ly-alpha FS only",
+      "prediction": {
+        "numerator": 5,
+        "denominator": 17,
+        "decimal": 0.29411764705882354
+      },
+      "value": {
+        "numerator": 13,
+        "denominator": 40,
+        "decimal": 0.325
+      },
+      "error": {
+        "numerator": 9,
+        "denominator": 500,
+        "decimal": 0.018
+      },
+      "source": "DESI2026",
+      "convention": "flat LCDM",
+      "difference": {
+        "numerator": -21,
+        "denominator": 680,
+        "decimal": -0.030882352941176472
+      },
+      "relative_difference": {
+        "numerator": -21,
+        "denominator": 221,
+        "decimal": -0.09502262443438914
+      },
+      "input_scale_error": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "standardized_residual": -1.7156862745098038
+    },
+    {
+      "label": "2026 DR2 BAO+Ly-alpha FS+CMB",
+      "prediction": {
+        "numerator": 5,
+        "denominator": 17,
+        "decimal": 0.29411764705882354
+      },
+      "value": {
+        "numerator": 1521,
+        "denominator": 5000,
+        "decimal": 0.3042
+      },
+      "error": {
+        "numerator": 33,
+        "denominator": 10000,
+        "decimal": 0.0033
+      },
+      "source": "DESI2026",
+      "convention": "flat LCDM",
+      "difference": {
+        "numerator": -857,
+        "denominator": 85000,
+        "decimal": -0.010082352941176471
+      },
+      "relative_difference": {
+        "numerator": -857,
+        "denominator": 25857,
+        "decimal": -0.033143829523920025
+      },
+      "input_scale_error": {
+        "numerator": 0,
+        "denominator": 1,
+        "decimal": 0.0
+      },
+      "standardized_residual": -3.0552584670231733
+    }
+  ],
+  "eliminated_N_checks": {
+    "matter_from_muon": {
+      "prediction": {
+        "numerator": 200000000,
+        "denominator": 684227609,
+        "decimal": 0.2923003944437442
+      },
+      "value": {
+        "numerator": 753,
+        "denominator": 2500,
+        "decimal": 0.3012
+      },
+      "error": {
+        "numerator": 79,
+        "denominator": 10000,
+        "decimal": 0.0079
+      },
+      "source": "DESI2026",
+      "convention": "DR2 galaxy BAO + Lyman-alpha full shape; flat LCDM",
+      "difference": {
+        "numerator": -15223389577,
+        "denominator": 1710569022500,
+        "decimal": -0.008899605556255769
+      },
+      "relative_difference": {
+        "numerator": -15223389577,
+        "denominator": 515223389577,
+        "decimal": -0.029547163201380375
+      },
+      "input_scale_error": {
+        "numerator": 9200000000,
+        "denominator": 1404502262753570643,
+        "decimal": 6.5503632453842485e-09
+      },
+      "standardized_residual": -1.1265323488927481
+    },
+    "solar_from_muon": {
+      "prediction": {
+        "numerator": 5099998586060176786642578125000000000000000000000000000000,
+        "denominator": 70723904906369222294126579829025044370698571149344941020624169,
+        "decimal": 7.211138288831791e-05
+      },
+      "value": {
+        "numerator": 3,
+        "denominator": 40000,
+        "decimal": 7.5e-05
+      },
+      "error": {
+        "numerator": 3,
+        "denominator": 2500000,
+        "decimal": 1.2e-06
+      },
+      "source": "JUNO59d",
+      "convention": "first 59.1 days; normal ordering; published three-flavor fit",
+      "difference": {
+        "numerator": -8171771276700595416676614487075133112095713448034823061872507,
+        "denominator": 2828956196254768891765063193161001774827942845973797640824966760000,
+        "decimal": -2.8886171116820878e-06
+      },
+      "relative_difference": {
+        "numerator": -8171771276700595416676614487075133112095713448034823061872507,
+        "denominator": 212171714719107666882379739487075133112095713448034823061872507,
+        "decimal": -0.038514894822427835
+      },
+      "input_scale_error": {
+        "numerator": 1412540830240669,
+        "denominator": 125000000000000000000000000,
+        "decimal": 1.1300326641925352e-11
+      },
+      "standardized_residual": -2.4071809262950072
+    }
+  },
+  "effective_N_diagnostics": {
+    "muon": {
+      "center": {
+        "numerator": 689227609,
+        "denominator": 5000000,
+        "decimal": 137.8455218
+      },
+      "lower": {
+        "numerator": 2067682781,
+        "denominator": 15000000,
+        "decimal": 137.84551873333334
+      },
+      "upper": {
+        "numerator": 2067682873,
+        "denominator": 15000000,
+        "decimal": 137.84552486666666
+      }
+    },
+    "matter": {
+      "center": {
+        "numerator": 100753,
+        "denominator": 753,
+        "decimal": 133.80212483399734
+      },
+      "lower": {
+        "numerator": 403091,
+        "denominator": 3091,
+        "decimal": 130.40795858945324
+      },
+      "upper": {
+        "numerator": 402933,
+        "denominator": 2933,
+        "decimal": 137.37913399249913
+      }
+    },
+    "solar": {
+      "center": "137.0790528569475356272828998995989399451440107291690227",
+      "lower": "136.7705051481119225848153534938319599250950776546281921",
+      "upper": "137.3932948710388284103556990497281708201881071499623590"
+    }
+  },
+  "conditional_neutrinos": {
+    "assumptions": [
+      "normal ordering",
+      "m1=0",
+      "Delta32/Delta21=33"
+    ],
+    "masses_eV": [
+      0.0,
+      0.00867786728543912,
+      0.05060022669124729
+    ],
+    "sum_eV": 0.05927809397668641,
+    "delta32_eV2": {
+      "numerator": 86169576110072746987113,
+      "denominator": 34674803505889280000000000,
+      "decimal": 0.0024850775605819203
+    },
+    "delta31_eV2": {
+      "numerator": 2611199276062810514761,
+      "denominator": 1019847161937920000000000,
+      "decimal": 0.0025603829412056147
+    },
+    "absolute_masses_measured_here": false,
+    "ratio_33_tested_here": false,
+    "cosmological_limit_sensitivity": [
+      {
+        "model": "LCDM + free sum; DESI+CMB",
+        "source": "DESI2026",
+        "upper95_eV": 0.0592,
+        "hierarchy_assumption": "three degenerate species; nonnegative mass-sum prior",
+        "difference_from_upper_eV": 7.809397668640666e-05
+      },
+      {
+        "model": "w0waCDM + free sum; DESI+CMB",
+        "source": "DESI2026",
+        "upper95_eV": 0.166,
+        "hierarchy_assumption": "three degenerate species; nonnegative mass-sum prior",
+        "difference_from_upper_eV": -0.1067219060233136
+      }
+    ]
+  },
+  "exact_joint_branch_matches_observations": false,
+  "theory_correction_applied": false,
+  "native_dynamics_changed": false,
+  "previous_calibrations_changed": false,
+  "joint_likelihood": null
+}

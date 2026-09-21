@@ -1,0 +1,20 @@
+{
+  "DCU_Mass_Cell_33.py": "9f9a0229b22e3eef03a948a9326ac61c87c30e19e42aa52189bdd7cb7eecfe9b",
+  "DCU_Mass_Cell_33_NOTES.md": "cd876c4c17ae485ff870cd5080bcccee95680f72c9fddf24b8d87d59c6ca4728",
+  "DCU_Mass_Cell_33_RESULTS.json.gz": "f42db5669ef824a43eae00fdaa348f03a3d4bc80736f5c8a82a74e0e3624f816",
+  "DCU_Mass_Cell_33_TESTS.txt": "0da5842c35eaed8aadf96b6df468960b0739c62ccaa392b7950ef1a02225487e",
+  "DCU_Mass_Cell_33_echo_comparison.png": "bb97b74ea2f5688c4d7ba97aba1b413323faf9be815ecdcaf41cbaac48fb4217",
+  "DCU_Mass_Cell_33_output.txt": "af35c3347dd44760cfdfa67b73406f647c0d2ffa0f3504c35515ddbcacfe0ebe",
+  "README.md": "34394851ca74209f291911ade945f74a35c4fb790317e245cde554b271d1c08a",
+  "SCOPE_BEFORE_RUN.md": "be42742a25bc38ed33c7b9300d3b778c0830a62df17261f688587eb28506d7a9",
+  "reference/DCU_Mass_Cell_25.py": "ed3d8a52fbf36b895efd1f7bb6e346c8ddfd2ef78bc4e0f4f4a836d7a9fe9beb",
+  "reference/DCU_Mass_Cell_29.py": "01002c238f4312a3167302f5a4b06bc22934d198a3d03b0e1b991a2cca1031d6",
+  "reference/DCU_Mass_Cell_29_RESULTS.json.gz": "feea3337ad2ff54b5db96958fd2ab04408529312d2005becadd13e713b025898",
+  "reference/DCU_Mass_Cell_32.py": "2b478888ec15f7cf82ebee119334e4a75b2300e25f9b23fa5c6fd00c82494c8c",
+  "reference/native_constructor.py": "85bf70a20dece885de6d855f0b5a67189245bcb68ad69119df15016a56c8fb57",
+  "reproduce.py": "543a63aed5a6a9876a96a725afc72005c5c4d69e35114e6df4a41e37ba021434",
+  "requirements-validation.txt": "679ad876aed1a08992539d6e6f610d0b5bcd342f72d1670794950ddc74a9eb9f",
+  "requirements.txt": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac",
+  "runtime_tested.json": "327c75fde91034954153fa42f59c371f1b791449604a41aedff9f8bf2ef3e297",
+  "validate.py": "42e22b17c79d9f8923d5b90459a779b75d42c35daaef0c943fbd6abce994af0e"
+}

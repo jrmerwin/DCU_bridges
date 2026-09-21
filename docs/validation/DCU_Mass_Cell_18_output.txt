@@ -1,0 +1,31 @@
+CELL 18 — FIXED PRESCRIPTIONS INTO RECOIL, SPECTROSCOPY, AND PION BRANCHING
+  structural_control: mu=411/2, tau=6987/2, pion=273, proton=1836
+  screened_primary: mu=827/4, tau=13909/4, pion=37421/137, proton=251552/137
+Calibrations: m_e c^2=0.51099895069 MeV (kinematics); H 1S-2S (spectroscopy).
+Pion branching ratio needs NO dimensional calibration. Cell 17 clock is unchanged, unused here.
+
+ recipe                         p_mu (MeV/c)    H-Mu shift (THz)      R_pi e/mu
+ structural_control              30.228255236        10.605519775 1.26079318137e-04
+ screened_primary                29.804657018        10.533732607 1.28262214387e-04
+ measured_mass_bridge_control    29.792140913        10.532692369 1.28334576312e-04
+ Observation                     29.792000000        10.532472187 1.23270000000e-04
+
+ recipe                         recoil error %     shift error %     R_pi error %
+ structural_control                 +1.4643369        +0.6935465        +2.2789958
+ screened_primary                   +0.0424846        +0.0119670        +4.0498210
+ measured_mass_bridge_control       +0.0004730        +0.0020905        +4.1085230
+
+Primary dependent kinematic outputs (NOT separate experimental tests):
+  muon kinetic energy=4.123621852 MeV;
+  neutrino energy=29.804657018 MeV; v_mu/c=0.271512582.
+Primary muonium line=2455.527680580 THz;
+  observed=2455.528941000 THz; error=-0.513299 ppm.
+The line and H-minus-Mu shift are ONE comparison, not independent successes.
+Pion recoil contributes to standard pion-mass determinations; not independent of mass-fit data.
+Muonium spectroscopy can determine m_mu/m_e; this is not a historically blind target.
+LO pion ratio omits EM radiation; measured-mass LO control exposes a similar discrepancy.
+Spectroscopy omits differential relativistic, recoil, QED and nuclear-size corrections.
+No 1% pass count, joint significance, fitted correction, or theoretical noise allowance.
+PASS: exact rational predictions, on-shell kinematics, equivalent ratios, calibration scaling, unchanged inputs.
+
+Execution seconds (not a scientific clock): 0.006137

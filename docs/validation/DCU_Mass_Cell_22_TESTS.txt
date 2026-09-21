@@ -1,0 +1,14 @@
+CELL 22 EXECUTED VERIFICATION
+1. Replayed actual Cells 01,14,17,18,19,20 using the original reproducibility archive.
+2. Two Cell22 executions identical in printed output and all saved non-callable fields.
+3. All 200 tabulated grid nodes reproduce their input value exactly under interpolation.
+4. Independent scipy RegularGridInterpolator: 333 points, max absolute difference 5.684e-14 in Delta-chi2.
+5. Independent 80-digit Decimal formulas for three source/sensitivity points: max difference 2.400e-78.
+6. Source R=32 alteration deliberately rejected; original value restored.
+7. Both amplitude and mass-axis extrapolation deliberately rejected.
+8. Bound |P_exact-P_onefast| <= A*s*(1-s)*(K*d21*y)^2 checked at 4260 additional points; max error/bound=0.999999812.
+9. Actual key tabulated values were inspected in the official arXiv ancillary text, not read off image contours.
+10. The public numerical data are transcribed excerpts; a remote checksum/full 10000-entry byte download was NOT obtained.
+11. Bilinear-versus-local-cubic difference at source is 0.007491176; primary not switched.
+12. Scalar probability checks of solar-prior matching do NOT establish a bound on full experimental likelihood.
+13. No new detector likelihood fit, covariance assumption joining the other experiments, or native history generated.

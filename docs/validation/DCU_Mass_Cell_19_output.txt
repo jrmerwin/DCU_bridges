@@ -1,0 +1,43 @@
+CELL 19 — FROZEN ANGLES; PROCESS-SPECIFIC PION QED; HYPERON PREFLIGHT
+delta0=5/137. Source Eqs. (36)-(39), no alternate angle formulas or octant flip.
+  sin^2 weak        =      127/548 = 0.231751824818
+  sin^2 solar       =      167/548 = 0.304744525547
+  sin^2 atmospheric =       76/137 = 0.554744525547
+  sin^2 reactor     =    400/18769 = 0.021311737439
+
+NuFIT 6.0 (Sept 2024 inputs): NO primary; IO is an unchanged-prediction sensitivity check.
+ variant                 quantity      best fit     prediction   error %   in marginal 3sigma
+ IC24_with_SK_NO         solar       0.308000  0.304744526   -1.0570              True
+ IC24_with_SK_NO         atmospheric 0.470000  0.554744526  +18.0308              True
+ IC24_with_SK_NO         reactor     0.022150  0.021311737   -3.7845              True
+ IC19_without_SK_NO      solar       0.307000  0.304744526   -0.7347              True
+ IC19_without_SK_NO      atmospheric 0.561000  0.554744526   -1.1151              True
+ IC19_without_SK_NO      reactor     0.021950  0.021311737   -2.9078              True
+ IC24_with_SK_IO         solar       0.308000  0.304744526   -1.0570              True
+ IC24_with_SK_IO         atmospheric 0.550000  0.554744526   +0.8626              True
+ IC24_with_SK_IO         reactor     0.022310  0.021311737   -4.4745              True
+ IC19_without_SK_IO      solar       0.308000  0.304744526   -1.0570              True
+ IC19_without_SK_IO      atmospheric 0.562000  0.554744526   -1.2910              True
+ IC19_without_SK_IO      reactor     0.022240  0.021311737   -4.1738              True
+No Gaussian pulls from the multimodal atmospheric fit; no joint-confidence claim.
+  weak_PDG2025: 0.23148 +/- 0.00013; error=+0.11743%; quoted-error units=+2.0910
+  solar_JUNO_59days: 0.3092 +/- 0.0087; error=-1.44097%; quoted-error units=-0.5121
+Exact identities: s23-s12=1/4; s12+3*s_eff=1; sin(theta13)+8*s_eff=2.
+These identities are consequences, not additional independent successes. CP phase is unspecified.
+
+PION ONLY: imported inclusive pointlike O(alpha) correction, recomputed with EACH mass recipe.
+New measured input alpha^-1=137035999177/1000000000; not delta0 or an RMR screening multiplier.
+ recipe                         correction %        corrected R      old error %    new error %
+ structural_control              -3.9241210  1.21131813142e-04    +2.278996    -1.734556
+ screened_primary                -3.9287081  1.23223166369e-04    +4.049821    -0.037993
+ measured_mass_bridge_control    -3.9287786  1.23292594934e-04    +4.108523    +0.018330
+  Unchanged inclusive comparison: 1.23270000e-04 +/- 2.30e-07.
+Higher chiral/structure and resummed-log terms omitted, NOT covered by an assigned theory error.
+This pion correction is NOT applied to the effective weak angle.
+
+LAMBDA: source formula and borrowed electron unit, not rounded source prediction.
+  Predicted mass=1115.678555727 MeV; residual=-4.444273 keV.
+  Pure kinematic electron kinetic endpoint=162.793565064 MeV (no endpoint data test).
+  Absolute hyperon rates NOT calculated: form factors/CKM missing; Xi bases are experimentally inferred in source.
+PASS: exact ladder identities, prior pion replay, dilogarithm identities, alpha scaling, and unchanged inputs.
+No mass/correction fit, native evolution, new weak-angle radiative prescription, or historical blindness claimed.

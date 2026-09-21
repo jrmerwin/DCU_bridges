@@ -1,0 +1,32 @@
+CELL 22 — RELEASED DAYA BAY SPECTRAL DELTA-CHI2, FROZEN SOURCE
+A13=0.083430189147; dm32=2.485077560582e-03; dmee=2.537434038716e-03 eV^2.
+NO surface uses dm32, NOT dmee. 200 grid entries + 24 check entries are embedded.
+Primary interpolation: bilinear; exact rational arithmetic on the published rounded numbers.
+
+ R     predicted dm32       released Delta-chi2    cubic check    difference
+ 32   2.409772179958e-03          1.644361118    1.635342889 +0.009018229
+ 33   2.485077560582e-03          0.514425153    0.506933978 +0.007491176
+ 34   2.560382941206e-03          2.694751797    2.684639711 +0.010112086
+Conventional two-parameter reference levels: {'two_parameter_68_3': Fraction(23, 10), 'two_parameter_95_5': Fraction(309, 50)}. Not model probabilities.
+Fixed-amplitude curve minimum on the diagnostic grid: R=32.88; R=33 is NOT replaced.
+
+Public grid retains collaboration solar priors; not the exact 4-parameter source likelihood:
+  Same-dmee coordinate matching gives Delta-chi2=0.515916697.
+  Largest probability differences from changing to the central solar inputs: {'release_solar_same_dm32': 3.294099196116118e-05, 'release_solar_same_dmee': 4.234722677720626e-05}
+  This probability check is NOT a rigorous bound on the experimental likelihood change.
+
+Other spectral summaries; nGd is SAME dataset, nH B is SAME data as nH A:
+ dataset                       A error units   dmee error units   conditional R +/- errors
+ DayaBay_nGd_same_sample           -0.7374            +0.3072 32.75521 -0.79676/+0.79676
+ DayaBay_nH_A                      +1.5060            -1.5504 36.08830 -1.99189/+1.85910
+ DayaBay_nH_B_same_data            +1.1000            -1.8755 36.48668 -1.85910/+1.85910
+ RENO_3800days                     -1.4601            -0.2695 33.43245 -1.60454/+1.48467
+Error units are one-dimensional diagnostics; no invented covariance, summed chi2, or combined significance.
+
+Short-baseline mapping check: {'max_probability_error': 0.0001622693884462123, 'analytic_uniform_bound': 0.00023169952468700877, 'y_max': 1.2}
+One integer step = 7.530538062369455e-05 eV^2 = 1.2550896770615758 nGd frequency errors.
+  R=32: holding dmee fixed needs solar change +3.0585%; max P change=0.000657515 vs 0.00917662 with solar fixed.
+  R=34: holding dmee fixed needs solar change -2.8822%; max P change=0.00060178 vs 0.00947536 with solar fixed.
+PASS: 200 grid-node replays, no extrapolation, independent interpolation check, exact dmee identity,
+      bounded two-frequency approximation, same-dmee diagnostics, and unchanged Cell20.
+No new detector fit, four-parameter likelihood reconstruction, native-clock derivation, or blind claim.

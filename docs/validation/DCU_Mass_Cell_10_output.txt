@@ -1,0 +1,31 @@
+CELL 10 — WITNESSED-EDGE COMPLETION; S DISTANCES AND HOST UNCHANGED
+None means unconstrained, not distance zero. Witness = actual child in host.
+An existing witness need NOT itself belong to the native recorded mask.
+
+ case    constraints   original Gram rank   witnessed distances fit R3
+ K3-1             3                    2                          True
+ K3-2             3                    2                          True
+ K4-1             6                    3                          True
+ K4-2             6                    3                          True
+ K5-1            10                    4                         False
+ K5-2            10                    4                         False
+ K5-3            10                    4                         False
+
+Actual non-K5 controls: 30/30 have an exact 3D completion.
+K5 single-constraint releases: 30/30 are feasible.
+Legal final-edge constructions: 20 local controls go feasible -> infeasible.
+  These are overlapping control cores, using only 2 distinct added pairs: [(5, 10), (7, 10)].
+  Native construction still accepts them; geometry is not a formation gate.
+
+First actual sparse control: (2, 3, 4, 5, 10); absent pair (5, 10).
+  Native squared distance when closure is required = 146/81.
+  Allowed 3D values = 3952/2187 +/- 2*sqrt(61504/4782969).
+  Numeric values: [1.5802469135802468, 2.033836305441244]
+  Exact closure polynomial at native value = -1012/19683 < 0.
+
+PASS: 70 exact tetrahedral certificates; 140 explicit 3D realizations checked.
+Largest numeric nine-edge squared-distance residual: 4.441e-16.
+Exact arithmetic establishes feasibility/infeasibility; no optimizer was used.
+Local realizations may differ between cases; no common global embedding is claimed.
+Witness-to-preferred-length and dimension 3 remain stated premises.
+Incompatibility is NOT yet a stress, energy, workload surcharge, or mass.

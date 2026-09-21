@@ -1,0 +1,31 @@
+CELL 23 — PRODUCTION THRESHOLDS + FINITE-QUANTUM PREFLIGHT
+Neutrino cells untouched. Screened masses and electron unit unchanged.
+Associated-strangeness channels borrow m_K+=493677/1000 +/- 3/200 MeV; no claim to derive base 966.
+Incoming first particle is the beam; second is the rest target in lab outputs.
+
+ channel                         W_threshold(MeV)   beam kinetic threshold(MeV)  lab error vs mass benchmark (%)
+ ee_to_mumu                            211.298066                   43684.853170      -0.01768387
+ ee_to_tautau                         3553.742203                12357249.051901      -0.00662916
+ ee_to_ppbar                          1876.537344                 3445595.488107      -0.00072848
+ ee_to_Lambda_pair                    2231.357111                 4871784.479824      -0.00079669
+ gamma_p_to_p_mumu                    1149.566738                     235.090224      -0.00970011
+ gamma_p_to_K_Lambda                  1609.355556                     911.080832      -0.00009734
+ pp_to_p_K_Lambda                     2547.624228                    1582.167716      -0.00012095
+Benchmarks are computed from measured masses, NOT independent measured thresholds.
+Pi+ p and pi- p -> K+ Lambda rejected by charge conservation; pi0 would have the required charge.
+
+Illustrative tau-pair speeds at fixed COM energies (not velocity measurements):
+  W=3554 MeV: beta=0.012044470133, mass-control beta=0.008875974113; relative difference=+35.697445%
+  W=3560 MeV: beta=0.059266572718, mass-control beta=0.058706588610; relative difference=+0.953869%
+  W=3600 MeV: beta=0.159792582968, mass-control beta=0.159590307942; relative difference=+0.126746%
+
+OPERATOR AUDIT: T=-A D^-1 is not a unitary step or an ordinary Hermitian matrix.
+  ||T e_j||^2 = 1/d_j: 1/73 or 1/136; no Born normalization by squaring T entries.
+  B=D^-1/2 T D^1/2 is symmetric; both exp(-i B tau) and exp(-i |B| tau) are unitary.
+  Their K5/K3 cavity-gap ratios are 5/6 and 3/2 respectively; the energy map is extra information.
+  Finite character spaces checked: q=3,9; q^2 orthogonal Weyl operators, mutually unbiased Fourier bases.
+  Qutrit phase 0: P=(1.0000000000000004, 2.4969709848201216e-32, 6.975053311708681e-32); complete phase erasure gives (1/3,1/3,1/3).
+  Qutrit phase 1/9: P=(0.7123860142010862, 0.20168971878843403, 0.08592426701048039); complete phase erasure gives (1/3,1/3,1/3).
+No physical phase-space area, new Bell claim, clock-to-seconds or Lorentz-violation coefficient inferred.
+PASS: rational threshold conservation/scaling; legal charge bookkeeping; threshold/pseudothreshold distinction;
+      actual registry similarity/spectrum; unitary alternatives; finite-character algebra; unchanged prior cells.

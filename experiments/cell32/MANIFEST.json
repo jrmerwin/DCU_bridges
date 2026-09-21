@@ -1,0 +1,19 @@
+{
+  "DCU_Mass_Cell_32.py": "2b478888ec15f7cf82ebee119334e4a75b2300e25f9b23fa5c6fd00c82494c8c",
+  "DCU_Mass_Cell_32_NOTES.md": "231108529251b94ad1f317f17cdaedc49e08fdd231e50275864ec9953577939e",
+  "DCU_Mass_Cell_32_RESULTS.json.gz": "b94df089731723cb4dde0abac3500c762869705ae82485d37db9b17132fbe704",
+  "DCU_Mass_Cell_32_TESTS.txt": "e06a6c4f63375b6c223fc2bf2c89b4005f306e2034fd1252268371eacdfacab9",
+  "DCU_Mass_Cell_32_bell_response.png": "29e8c71faf5de084f520e7db1bf256092158abe0dc2d33dd9c55be0cdf6094a0",
+  "DCU_Mass_Cell_32_output.txt": "ed333a67a60ae2cf19294c5819f1de249c5322022b94ee844b1d6717bfc5c00f",
+  "README.md": "c14d7387da8741603633a5c721415bfbacf618651fd44f1cf4d4c6b89c6737a8",
+  "SCOPE_BEFORE_MAIN_RUN.md": "0df17ee45cbe1ef0d756187a389a7a6464537630baffa95b9daee98c98b12323",
+  "reference/DCU_Mass_Cell_25.py": "ed3d8a52fbf36b895efd1f7bb6e346c8ddfd2ef78bc4e0f4f4a836d7a9fe9beb",
+  "reference/DCU_Mass_Cell_29.py": "01002c238f4312a3167302f5a4b06bc22934d198a3d03b0e1b991a2cca1031d6",
+  "reference/DCU_Mass_Cell_29_RESULTS.json.gz": "feea3337ad2ff54b5db96958fd2ab04408529312d2005becadd13e713b025898",
+  "reference/native_constructor.py": "85bf70a20dece885de6d855f0b5a67189245bcb68ad69119df15016a56c8fb57",
+  "reproduce.py": "dd0373b7d1490703c74792e9db4af03ccbdf721293b3baabf0ba93731ca5df51",
+  "requirements-validation.txt": "834b95f435034610a6170f1f3c530631dc21afb80ad2dbc480118f3207eee9e8",
+  "requirements.txt": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+  "runtime_tested.json": "63d52bdfa4f04fc86e607d207494a382c8756e85a32612172d05a25769c53fb8",
+  "validate.py": "f5652fad1ee4c8d9bc4209da3ebb36c04d07ffa50181b4bee7d9bc2f71b634b5"
+}

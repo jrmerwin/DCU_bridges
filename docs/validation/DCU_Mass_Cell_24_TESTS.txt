@@ -1,0 +1,8 @@
+702 80-digit amplitude probabilities: max absolute error 9.526e-16
+8 independent dense Kronecker circuits: max probability error 4.441e-16
+6 SciPy matrix-exponential cavity checks: max probability error 3.886e-16
+4 full enabled native bursts independently reconstructed; all extra children and exact costs agree.
+27 common-phase/generator-offset invariance checks.
+Nontriadic/float settings and altered Cell23 gap rejected; saved inputs preserved.
+Two complete runs had identical outputs and all serializable results.
+These are implementation and conditional algebra tests; no empirical quantum data or native energy law tested.

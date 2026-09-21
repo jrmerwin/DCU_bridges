@@ -1,0 +1,11 @@
+PASS — independent Cell30 validation
+private_event_cards: 55606
+local_protocols_decoded: 2560
+certified_returns: 16
+independent_native_transitions: 40960
+exact_conditional_hazard_cases: 80
+summary_panels: 8
+All missing receipts/returns retained. No Monte Carlo result is a validation filter.
+No measured physical quantity, neutron process, or earlier prediction was changed.
+Standalone final replay from a separate path containing spaces: all serialized values match.
+Primary fields before/after the additional diagnostic block: exactly unchanged.

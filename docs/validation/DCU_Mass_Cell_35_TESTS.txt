@@ -1,0 +1,27 @@
+Cell35 validation — actually executed in Linux
+
+{
+  "counts": {
+    "original_complete_steps": 131072,
+    "all_positive_service_ledger_links": 35532583,
+    "all_native_node_chains": 119089,
+    "independent_late_complete_bursts": 4587,
+    "exact_union_subset_laws": 54,
+    "independent_dense_code_probabilities": 90,
+    "selected_complete_paths": 176491,
+    "readout_records_checked": 116249,
+    "independent_raw_count_windows": 504,
+    "four_distinct_path_certificates": 168
+  },
+  "seconds": 54.13221531699992,
+  "all_checks_passed": true
+}
+
+Compact replay additionally checked all1,024 fresh confirmation readouts.
+The actual C++ source embedded in the delivered single cell compiled successfully.
+Its complete H6 prefix through1,024 maintenance ticks matches the original primary stream byte-for-byte.
+Two complete early replication continuations match the delivered reference rows exactly.
+All native primary ledgers were checked across positive-service events, including every intervening quiet run.
+The million-tick full campaign was executed once; this is NOT a claim of two complete full-campaign replays.
+The compiled code is a port with the same transition law, not the old Python RNG stream.
+No Mac benchmark, laboratory data, unit calibration, or physical matter finding is claimed.

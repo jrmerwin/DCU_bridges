@@ -1,0 +1,35 @@
+GRADE 5 / SUPPORT 11 / SAME NATIVE X AND SAME A/B PROBES
+Original reporting unit remains 90; no mass calibration or refit.
+K3: 22 G-bearing, 259 G-free.
+K4: 1 control; 0 G-bearing.
+Exact-C matched blocks: 9; 9 G-bearing motifs; 13 G-free controls.
+G-bearing motifs without an exact-C control: [4338, 10386, 9212, 11448, 9980, 8091, 8247, 9565, 9561, 14057, 9279, 3110, 9866]
+
+Whole fixed stratum (descriptive, not the matched comparison):
+ family/group   probe    n       mean X      X/90       mean G part
+ K3/G-free     A  259    89.080223   0.989780        0.000000
+ K3/G-free     B  259    89.016731   0.989075        0.000000
+ K3/G+         A   22    79.212121   0.880135       19.333333
+ K3/G+         B   22    76.909091   0.854545       19.333333
+ K4/G-free     A    1   113.777778   1.264198        0.000000
+ K4/G-free     B    1   106.666667   1.185185        0.000000
+
+Primary comparison: G-bearing minus G-free, SAME constituent ancestry.
+ block   G+ archive IDs    G-free archive IDs      delta A     delta B
+   1           [7345]          [5485, 13700]     8.222222    9.555556
+   2           [7343]          [3722, 11325]     8.222222    9.555556
+   3           [6411]                 [6408]     4.888889    5.777778
+   4           [4078]           [8160, 3653]     2.000000    2.444444
+   5           [3108]                [12708]     4.888889    5.777778
+   6          [14715]                 [7699]     5.333333    7.111111
+   7           [9979]           [7340, 5607]     2.444444    2.000000
+   8          [10327]                 [4737]    12.000000    9.777778
+   9           [4855]                [12628]     0.888889   -0.888889
+
+Equal-block means: delta X = direct G charge + difference elsewhere.
+  A: 440/81 = 1474/81 + (-1034/81); delta/90=+0.060357; positive/zero/negative=(9, 0, 0)
+  B: 460/81 = 1474/81 + (-338/27); delta/90=+0.063100; positive/zero/negative=(8, 0, 1)
+
+PASS: Cell 1 replay; unchanged native cost; exact G attribution.
+X minus its G-attributed part is bookkeeping, NOT a G-deletion experiment.
+No G-specific coefficient, force law, service clock, or mass factor was added.

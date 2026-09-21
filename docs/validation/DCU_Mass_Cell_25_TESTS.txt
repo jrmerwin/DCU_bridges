@@ -1,0 +1,9 @@
+Loaded actual Cells 1,14,17,18,19,23,24
+PASS: two executions of FINAL Cell25 give identical serialized results.
+PASS: independent bitmask implementation matches 16384 full transitions in four histories.
+PASS: 2048 dense 9-state circuits; eight ensemble density matrices. Max probability error 1.998e-15, purity error 1.221e-15.
+PASS: 6144 independent 70-digit outcome probabilities. Max ensemble mean error 6.661e-16.
+PASS: changed inherited generator is explicitly rejected before simulation.
+no_relief total count residual mean/SE= -1.1600066567028542 residual second moment vs expected quadratic variation= 55.86334849952114 53.159451092440236
+relief_H6 total count residual mean/SE= -0.29327827376079224 residual second moment vs expected quadratic variation= 45.42931681646418 41.433315633144886
+Finite stochastic samples retained without cuts. No empirical physics validation or spatial dimensionality result.

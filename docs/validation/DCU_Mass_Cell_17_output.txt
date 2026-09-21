@@ -1,0 +1,26 @@
+CELL 17 — FROZEN MASS -> DECAY-RATE TRANSFER; ONE MUON CLOCK CALIBRATION
+  structural_control: r_mu=411/2, r_tau=6987/2; r_tau/r_mu=17.000000000000
+  screened_primary: r_mu=827/4, r_tau=13909/4; r_tau/r_mu=16.818621523579
+Muon lifetime input: 2.1969811000e-06 +/- 2.2e-12 seconds.
+Imported: universal leading-order weak decay law, including final-lepton phase space.
+No measured lepton masses, tau lifetime, or tau branching values enter prediction.
+
+ recipe              channel   predicted(1e12/s)  observed(1e12/s)   error(%)   <1%?
+ structural_control  electron       0.646398366         0.614557856   +5.18104   False
+ structural_control  muon           0.629031865         0.598022667   +5.18529   False
+ screened_primary    electron       0.612641817         0.614557856   -0.31178    True
+ screened_primary    muon           0.595834395         0.598022667   -0.36592    True
+
+Predicted inverse partial rates (ps), NOT total tau lifetime:
+  structural_control: e=1.547033614, mu=1.589744582
+  screened_primary: e=1.632275129, mu=1.678318688
+
+Dependent channel-ratio check; HFLAV comparison 0.973 +/- 0.0022:
+  structural_control: Gamma_mu/Gamma_e=0.973133440; error=+0.01371%
+  screened_primary: Gamma_mu/Gamma_e=0.972565664; error=-0.04464%
+The two rate checks share inputs. The ratio is NOT a third independent success.
+Radiative/finite-W corrections are omitted, not fitted; no precision-theory error assigned.
+Retrospective new-observable test, not a blinded discovery or native-clock derivation.
+PASS: exact source arithmetic, clock scaling, two equivalent rate formulas, unchanged inputs.
+
+Execution seconds: 0.010542

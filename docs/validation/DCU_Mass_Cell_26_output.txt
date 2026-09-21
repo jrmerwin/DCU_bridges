@@ -1,0 +1,55 @@
+CELL 26 — FIXED RECORD PATHS DRIVE DIFFERENTIAL CLOCKS
+Same 1/27 phase unit (1/81 control); same original two-sibling readout.
+A served register drives every selected path containing it; shared contributions cancel.
+This readout fan-out is ADDED; it creates no native work or local communication law.
+Two past-only checkpoints at old step 512; 256 new continuations each x 2048 updates.
+Primary record length 3, length 4 transfer. Phase resolution is a DIFFERENT variable.
+Exact: Cov(Y_A,Y_B)=(p-p2)|A intersect B|+(p2-p^2)|A||B|.
+Equal-size supports: Var(Y_A-Y_B)=(p-p2)|A symmetric-difference B|.
+Accumulation: E[(N_A-N_B)^2] = |A symmetric-difference B| E[sum(p-p2)].
+Clock-only identity: distance^2 = 2 E[(N_A-N_B)^2]/E[(N_3-N_4)^2]; noisy estimates saved.
+
+no_relief: past checkpoint n=18, F=691, P=2842.
+  record length 3: 17 paths, 13 support classes; exact affine feature dimension 11.
+    delta    pairs    estimated delta +/- MC SE       mean P0, 1/27
+      0        4     0.000000 +/- 0.000000          1.000000
+      2       21     2.008653 +/- 0.073120          0.602864
+      4       50     3.929349 +/- 0.137194          0.467630
+      6       61     5.706082 +/- 0.209035          0.409071
+  Clock alias pair (0, 6): ((0, ((2, 0), (3, 1), (6, 1))), (1, ((2, 1), (3, 1), (6, 1)))); address agreement probability=1/3, despite identical clocks on EVERY history.
+  Not an ultrametric: triple squared distances (4, 2, 6)
+  record length 4: 17 paths, 12 support classes; exact affine feature dimension 9.
+    delta    pairs    estimated delta +/- MC SE       mean P0, 1/27
+      0        5     0.000000 +/- 0.000000          1.000000
+      2       21     2.067146 +/- 0.083863          0.594041
+      4       36     3.927696 +/- 0.149106          0.478677
+      6       45     5.915289 +/- 0.278927          0.416651
+      8       29     7.718710 +/- 0.367316          0.376845
+  Clock alias pair (0, 7): ((0, ((2, 0), (3, 1), (6, 1), (8, 1))), (1, ((2, 1), (3, 1), (6, 1), (8, 1)))); address agreement probability=1/3, despite identical clocks on EVERY history.
+  Not an ultrametric: triple squared distances (2, 4, 6)
+
+relief_H6: past checkpoint n=32, F=339, P=25.
+  record length 3: 42 paths, 29 support classes; exact affine feature dimension 18.
+    delta    pairs    estimated delta +/- MC SE       mean P0, 1/27
+      0       13     0.000000 +/- 0.000000          1.000000
+      2      163     1.946924 +/- 0.054392          0.671112
+      4      344     4.023937 +/- 0.136989          0.530541
+      6      341     6.087670 +/- 0.215280          0.456326
+  Clock alias pair (0, 20): ((0, ((2, 0), (3, 1), (9, 1))), (1, ((2, 1), (3, 1), (9, 1)))); address agreement probability=1/3, despite identical clocks on EVERY history.
+  Not an ultrametric: triple squared distances (2, 2, 4)
+  record length 4: 40 paths, 26 support classes; exact affine feature dimension 17.
+    delta    pairs    estimated delta +/- MC SE       mean P0, 1/27
+      0       14     0.000000 +/- 0.000000          1.000000
+      2       93     1.898019 +/- 0.053193          0.676283
+      4      178     4.134614 +/- 0.122083          0.518240
+      6      319     6.224181 +/- 0.235078          0.453085
+      8      176     8.480956 +/- 0.348539          0.410319
+  Clock alias pair (0, 17): ((0, ((2, 0), (3, 1), (9, 1), (12, 1))), (1, ((2, 1), (3, 1), (9, 1), (12, 1)))); address agreement probability=1/3, despite identical clocks on EVERY history.
+  Not an ultrametric: triple squared distances (2, 4, 6)
+
+PASS: complete legal recorded paths; exact weighted token-subset enumeration; 1,048,576 native updates;
+      all prior states preserved; tensor readout error 1.221e-15; same-history passive controls.
+Empirical estimates are noisy and retained without selecting successes; pairs share histories.
+Operational proximity = overlap of prescribed register supports, not physical distance or 3D.
+Entry orientation, prefix order, and spatial propagation are NOT supplied by this support-only clock.
+No proton/neutron/u-d identification, maturity epoch, SI scale, or formation-time prediction is made.

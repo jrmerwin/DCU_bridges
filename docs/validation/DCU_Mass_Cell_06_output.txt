@@ -1,0 +1,27 @@
+CELL 6 — PROPOSED COUPLING EXTENSION; NATIVE RECORDING KERNEL UNCHANGED
+Common host: 180 objects, 137 registry roots, 356 parent-child links.
+Added law: T=-A D^-1 on those links; |signal| is a contact probability.
+One unit-L1 balanced pulse per trial; all core pairs averaged, not summed.
+Each step permits at most one contact; leftover probability means no contact.
+Expected incremental work is summed through step 128; apparatus warming excluded.
+No service time, field energy, sector weights, or mass multipliers were supplied.
+
+ case      W(A)      W(B)     ratio A   ratio B   gain A   N_eff   reached<=8
+ K3-1    176.1590  213.5382   1.000000  1.212190   3.8335   54.88        137
+ K3-2    195.4376  213.1225   1.109438  1.209830   3.7623   54.71        137
+ K4-1    191.6869  191.6869   1.088147  1.088147   4.8707   95.27        137
+ K4-2    159.6029  196.9238   0.906016  1.117875   5.5510   79.67        137
+ K5-1    196.4473  201.7025   1.115170  1.145003   3.3731   96.21        137
+ K5-2    201.7025  196.4473   1.145003  1.115170   3.2587   96.21        137
+ K5-3    209.6652  209.6652   1.190204  1.190204   3.8556  100.32        137
+ratio = full response / K3-1 full response with readout A (fixed once).
+gain = full-host / isolated-support response with the SAME readout kernel.
+N_eff uses time-integrated activity, NOT independent physical degrees of freedom.
+Reached counts are exact UNION counts across trials, not counts in every single pulse.
+Largest full-response fractional addition from steps 65–128: 4.728e-06.
+This is a finite-window check, not an infinite-time tail bound.
+PASS: legal host, primitive-exchange symmetry, real warming, all 14 old A/B Q values,
+      exact first-eight-step transport checks, zero signed sum, and nonincreasing input budget.
+Transport is floating point; first 8 steps are also checked with exact fractions.
+W is expected native work under a PROPOSED scheduler, not a measured rest mass.
+Cell 5 and its physical calibration remain unchanged; no MeV conversion is made here.

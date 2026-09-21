@@ -1,0 +1,20 @@
+CELL 33 — INDEPENDENT VALIDATION
+Original-source complete conditional transitions checked: 20833
+Exact two-step covariance checks against explicit second-step tag law: 6
+High-precision density/negativity/fidelity states: 48 at 65 digits
+High-precision density entries compared: 3888
+Maximum high-precision discrepancy: 1.1102230246251565e-15
+Exact static-noise echo instances checked: 108
+All 729+6561 phase pairs and four independent matrix exponentials checked.
+All 24 independent-window states checked by full empirical-product histograms.
+Maximum independent floating-point discrepancy: 4.004505348847206e-15
+No Monte Carlo outcome agreement used as a pass criterion.
+Runtime seconds: 11.349877621999951
+PASS
+
+Fresh-directory portability replay:
+Extracted the packaged ZIP into a different directory containing spaces.
+Replayed Cell32 then Cell33 from the packaged inputs.
+All exact and floating scientific values matched; normalized data bit-identical on Linux.
+Combined standalone analysis runtime in this check: 1.764 seconds.
+No Mac benchmark or external neutron-search inspection performed.

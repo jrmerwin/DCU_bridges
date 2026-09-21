@@ -1,0 +1,34 @@
+CELL 32 — A SMALLER VERTICAL BRIDGE: WORKLOAD -> TIMING -> QUANTUM CORRELATIONS
+Saved Cell29 native histories; NO new primary native simulation or observer-identity rule.
+Inherited source Omega_2 and local phase advance; classical service is NOT the source of entanglement.
+Fixed CGLMP3 settings: (0, 4/27, -2/27, 2/27), unchanged across all arms/depths.
+Pure-source score = 2.839997554021; local upper bound = 2; continuous source benchmark = 2.872934051172.
+
+ AT 128 UPDATES, PHASE INCREMENT 1/27:
+ environment / arm                 CGLMP I3 +/- history MC SE    negativity +/- jackknife SE
+ no_relief   /existing_pair    2.319894878 +/- 0.029906993      0.923080857 +/- 0.004670864
+ no_relief   /recorded_pair    2.580946071 +/- 0.019897365      0.947610103 +/- 0.003912142
+ no_relief   /first_use_pair   2.715763219 +/- 0.012057190      0.967763653 +/- 0.002662972
+ relief_H6   /existing_pair    2.030202748 +/- 0.042187147      0.880292393 +/- 0.007146659
+ relief_H6   /recorded_pair    2.211296752 +/- 0.036138862      0.901334829 +/- 0.006143461
+ relief_H6   /first_use_pair   2.421790288 +/- 0.026735971      0.927178518 +/- 0.004398891
+
+ AT 1024 UPDATES, PHASE INCREMENT 1/27:
+ no_relief   /existing_pair   I3=-0.743936783; negativity=0.439442594.
+ no_relief   /recorded_pair   I3=-0.820842279; negativity=0.493246045.
+ no_relief   /first_use_pair  I3=-0.826192478; negativity=0.477602541.
+ relief_H6   /existing_pair   I3=-0.850216162; negativity=0.564898874.
+ relief_H6   /recorded_pair   I3=-0.815554877; negativity=0.583520319.
+ relief_H6   /first_use_pair  I3=-0.842392222; negativity=0.590002296.
+
+SOURCE-BACKED FILTER TRANSFER: P01 F3 P01 before timing; success 4/9; Schmidt squares (3/4,1/4,0).
+ no_relief: filtered negativity at 1024 = 0.260737815, fraction retained = 0.602148191; wrong total-count-only channel trace distance = 0.734274489.
+ relief_H6: filtered negativity at 1024 = 0.303557973, fraction retained = 0.701037110; wrong total-count-only channel trace distance = 0.602082864.
+Filtered-source transfer imports the declared heralded instrument operation, not a new native workload.
+A failed FIXED Bell witness is not a separability or all-settings-locality verdict.
+Complete erasure: I3=0, negativity=0. Log-conditioned local inverse phases: original source restored.
+Inverse-phase control retains ALL histories and all measurements; it is not postselection.
+No physical gate/feedback cost, energy, seconds, propagation, GR redshift, or neutron operation added.
+The 1/81 control, every checkpoint and seed block, and full joint probability tables remain saved.
+PASS: local-bound enumeration, source regression, density/partial-transpose spectra,
+      local Kraus completeness, dense tensor outcomes, no-signalling, exact one-step laws, unchanged input.

@@ -1,0 +1,15 @@
+CELL 8 — EXACT CONDITIONAL GEOMETRY AUDIT; NO MASS CONVERSION
+Actual S overlap graph: 81 roots; 1944 edges; degrees {44: 72, 80: 9}.
+Four ternary coordinates alone do NOT specify this adjacency or a 3D metric.
+
+ family  equal-edge dimension  fits R3?  unequal-control dimension  redundant constraints
+ K3                    2      True                          2                      0
+ K4                    3      True                          3                      0
+ K5                    4     False                          3                      1
+
+Checked actual core/witness edges of 7 unchanged catalogue candidates.
+K5 Cayley-Menger determinant: equal unit edges = -5 ; explicit 3D control = 0
+Equal-length K5 cannot fit Euclidean R3; K5 with compatible unequal lengths CAN.
+One redundant constraint permits self-stress; it does not force nonzero stress.
+The dimension 3 and equal preferred lengths are declared premises, NOT outputs of S.
+No S-to-coordinate map, native strain cost, registry multiplier, or mass was supplied.

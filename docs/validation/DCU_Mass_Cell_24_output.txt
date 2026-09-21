@@ -1,0 +1,35 @@
+CELL 24 — FINITE RECORD PHASES, NOT A PHYSICAL MASS/ENERGY CALIBRATION
+Local source phase D(x)=diag(1,e^(2pi ix),e^(4pi ix)); 363 grid settings,
+  7380 exact composition checks; same coarse tick survives refinement.
+Fixed local return: L(x)=1/3+(4/9)cos(2pi x)+(2/9)cos(4pi x).
+
+Coarse-generator alias: (0,1,2) and (0,1,11) agree on EVERY k/9 setting.
+At the first finer setting x=1/27:
+  source labels: (0.96438275144068, 0.02020127181441851, 0.015415976744901624)
+  aliased labels: (0.21140342695514544, 0.47291040199072415, 0.3156861710541308)
+  total variation=0.752979324486; finer source family rejects alias.
+
+SHARED-SOURCE SIBLINGS: outcome sum mod3, same local inverse-Fourier readout.
+ j   min Gamma    one setting unit P(sum=0)   one unit on EACH P(sum=0)
+ 2           3                 0.964382751441                0.863205304967
+ 3           4                 0.964382751441                0.712386014201
+ 4           5                 0.964382751441                0.535003100154
+ 5           6                 0.964382751441                0.356870643158
+Each-unit and all-j-units-on-one-port results agree: response depends on SUM of phases.
+494 allocations of seven total units and 108 tensor/grid cases checked.
+Phase erasure yields (1/3,1/3,1/3); every one-factor marginal stays uniform.
+j counts siblings, NOT K_j order. These j>=2 burst fixtures do NOT occur at Gamma=2.
+Birth work is stored; phase settings have NO supplied native workload or time assignment.
+
+CLOCK-ADMISSIBLE CAVITY COUNTERMODELS: common algebraic normalization beta=12.
+ n    signed gap    magnitude gap    P_return signed/magnitude at x=1/27
+ 3           3/2              1/2 0.333333333333 / 0.632732523408
+ 4           4/3              2/3 0.311692070720 / 0.517448787733
+ 5           5/4              3/4 0.379298361349 / 0.520000000000
+K5/K3 gaps: signed 5/6; magnitude 3/2. BOTH pass phase/refinement/permutation checks.
+720 cavity unitary/refinement/composition checks. No gate synthesis claimed.
+Actual registry eigenvalue clock normalizer=9928; charges={'signed': (-9928, -8432, 766, 136, 73), 'magnitude': (9928, 8432, 766, 136, 73)}.
+A finite clock element has torsion: no nonzero additive map of that group into real elapsed time.
+An unwrapped event count or a separately specified timing law is additional information.
+PASS: prior Cell23/registry unchanged, legal sibling fixtures, exact phase identities, tensor Born readout.
+Selected: phase law as a function of supplied settings. NOT selected: S vs |S| as physical energy.

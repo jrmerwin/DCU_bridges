@@ -1,0 +1,7 @@
+PASS: two full fresh-kernel executions, identical serializable fields and printed output.
+PASS: 116 paths independently enumerated backwards to primitives.
+PASS: 12954 weighted maintenance-subset visits; 3942 exact full covariance entries.
+PASS: independent rational centered-Gram ranks [11, 9, 18, 17]; Euclidean-distance triangle checks; alias agreement probabilities.
+PASS: 16384 complete independent bit-mask/native transitions; 128 saved count/activity checkpoints.
+PASS: 648 outcome probabilities from 70-digit two-qutrit amplitudes; max absolute error 4.441e-16.
+No empirical mass/clock fit, spatial dimension, quark mapping, or neutron formation result is asserted.

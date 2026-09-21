@@ -1,0 +1,35 @@
+CELL 36 — PROTECTED COLLECTIVE MEMORY AND A STATE-SENSITIVE INTERFACE
+Frozen Cell35 storage; no new native simulation, energy assignment, or neutron-search change.
+Archived assembly views: 168 distinct world/architecture relations: 60
+Primary protected: 168 entry-sensitive protected: 89 entry-sensitive failures: 79
+Native detailed checkpoint: tau=128, t=814, n=19, F=547.
+Exact next-event subsets: 1160 representing 30060260 equally likely token selections.
+All three encoded words have IDENTICAL native birth/work/queue distributions.
+Same endpoint comparison at tau4,194,304: cost=128 for each of the three words.
+Actual endpoint comparison (10,11): cost=128, repeat=128, first-premium=0, next_F=674.
+
+Readout/action                         correct label   original word fidelity   code-space weight
+Original local projective readout        1.000000           0.333333                0.333333
+ADDED coherent common-shift probe        1.000000           1.000000                1.000000
+Both measurements have the SAME coarse three-outcome probabilities for every memory input.
+Existing phase gate D(1/3) maps word k to k+1; subsequent storage preserves that new word.
+Discarding the probe preserves the three label states, NOT every logical superposition.
+
+Split probe interaction; exactly ONE actual support-register service between its halves:
+ Q   noise model       input k    meter correct    memory fidelity    both correct
+ 27  primary            0      0.944147262    0.895574871    0.893051953
+ 27  primary            1      0.944147262    0.895574871    0.893051953
+ 27  primary            2      0.944147262    0.895574871    0.893051953
+ 27  entry_sensitive    0      0.950710152    0.906195337    0.904597552
+ 27  entry_sensitive    1      0.950710152    0.906195337    0.904597552
+ 27  entry_sensitive    2      0.950710152    0.906195337    0.904597552
+ 81  primary            0      0.993605801    0.987307385    0.987275312
+ 81  primary            1      0.993605801    0.987307385    0.987275312
+ 81  primary            2      0.993605801    0.987307385    0.987275312
+ 81  entry_sensitive    0      0.994399674    0.988861670    0.988840887
+ 81  entry_sensitive    1      0.994399674    0.988861670    0.988840887
+ 81  entry_sensitive    2      0.994399674    0.988861670    0.988840887
+The completed split operation stays inside the code space, but can corrupt the encoded word.
+The controlled meter is an explicit feasibility extension, not a native gate/cost derivation.
+A state-dependent growth or mass response is still absent from the unchanged counting law.
+PASS: {'validated_path_tokens': 2256, 'protected_matrix_unit_checks': 26676, 'exact_register_generators': 3984, 'native_word_event_checks': 3480, 'native_maintenance_subsets': 1160, 'projective_readout_words': 3, 'coarse_instrument_effects': 3, 'ideal_meter_words': 3, 'interrupted_circuits': 444, 'native_to_quantum_marginals': 26}

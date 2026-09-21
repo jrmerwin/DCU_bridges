@@ -1,0 +1,37 @@
+PASS: exact decomposition of 572 saved responses and all their ports.
+PASS: 22 motifs x 32 chain probes = 704 native checks;
+      660 checks use the 30 previously untested mixed chain words.
+All probes: grade 6, support 8, L=12. Original reporting unit remains 90.
+
+BLOCK 9: actual cores and edge witnesses (IDs are cache labels).
+  4855: core=[4, 7, 22], S/I/G=[1, 0, 1]
+    (4, 7) -> 42: S, L=12, q=11, d=1, k=44/3
+    (4, 22) -> 302: G, L=14, q=11, d=1, k=154/9
+    (7, 22) -> 470: nonregistry, L=16, q=11, d=1, k=176/9
+  12628: core=[3, 7, 22], S/I/G=[0, 0, 0]
+    (3, 7) -> 35: nonregistry, L=12, q=11, d=1, k=44/3
+    (3, 22) -> 246: nonregistry, L=14, q=11, d=1, k=154/9
+    (7, 22) -> 470: nonregistry, L=16, q=11, d=1, k=176/9
+
+Shared ancestors with different k (G-bearing minus G-free):
+  3: ((a|b)|a), L=4, d=4 vs 5, delta k=-8/9; in A/B=True/False
+  4: ((a|b)|b), L=4, d=6 vs 5, delta k=8/9; in A/B=False/True
+  First-use contributions: 154/3 vs 154/3; difference=0.
+  Whole support sums before overlap removal: 710/9 vs 710/9.
+  These sums are bookkeeping, NOT a new calibrated observable.
+
+ALL NINE BLOCKS: same X, all 32 chain probes, no averaging away signs.
+ block   min delta    max delta    positive/zero/negative
+   1         62/9         86/9    (32, 0, 0)
+   2         62/9         86/9    (32, 0, 0)
+   3         44/9         52/9    (32, 0, 0)
+   4            2         22/9    (32, 0, 0)
+   5         44/9         52/9    (32, 0, 0)
+   6            4         64/9    (32, 0, 0)
+   7            2         22/9    (32, 0, 0)
+   8         88/9           12    (32, 0, 0)
+   9         -8/9          8/9    (16, 0, 16)
+
+Block 9: delta=+8/9 for all 16 a-first probes; -8/9 for all 16 b-first probes.
+This is an ancestry-overlap effect, not a reversal of G recording charge.
+The 32 probes exhaust this chain family, NOT all legal probe shapes.

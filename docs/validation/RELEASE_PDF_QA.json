@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pages": 17,
+  "figures": 7,
+  "tables": 5,
+  "numbered_display_equations": 23,
+  "missing_or_overflow_warnings": [],
+  "pdf_sha256": "a2d222a381c152fb33043186702cb629136b720a6de38eced1bdfd2c87753b1f",
+  "visual_review": "All pages reviewed as contact sheets; figure legends inspected individually and overlaps corrected. No OCR used.",
+  "scope": "Layout and reference-resolution check, not an independent physical validation."
+}

@@ -1,0 +1,26 @@
+CELL 11 — MINIMUM RELATIVE RMS SQUARED-DISTANCE MISMATCH IN R3
+eta^2 = min sum_witnesses (realized squared distance - S target)^2 / sum_witnesses target^2
+Uniform edge weights. All coordinates free. No deleted or zero-filled constraints.
+Exact rational lower/upper certificates; upper = a feasible fit, NOT a proved optimum.
+
+ case       lower eta (%)     upper eta (%)     status
+ K3-1          0.00000000        0.00000000     EXACT_ZERO
+ K3-2          0.00000000        0.00000000     EXACT_ZERO
+ K4-1          0.00000000        0.00000000     EXACT_ZERO
+ K4-2          0.00000000        0.00000000     EXACT_ZERO
+ K5-1          0.34923026        0.36294336     POSITIVE_BRACKET_NOT_EXACT_MINIMUM
+ K5-2          0.34923026        0.36294336     POSITIVE_BRACKET_NOT_EXACT_MINIMUM
+ K5-3          1.84405456        1.94618415     POSITIVE_BRACKET_NOT_EXACT_MINIMUM
+
+Sparse controls: 30/30 have EXACT minimum zero.
+Previous legal final-edge cases: 20/20 now have a positive lower bound.
+These are local, overlapping tests; no common global embedding is asserted.
+552 deterministic optimization starts; 0 non-success terminations retained.
+
+First earlier closure: core (2, 3, 4, 5, 10), new pair (5, 10).
+  Before eta=0; after eta in [1.84405456%, 1.94618415%].
+  Native formation work is retained separately, NOT increased by this geometric diagnostic.
+PASS: exact positive spectral bounds, rational 3D upper bounds, four-dimensional zero controls,
+      all sparse witnessed-edge certificates, and preservation of Cells 9/10.
+Percentages are relative RMS errors of SQUARED distances, not physical strain percentages.
+No force, turnover, clock, energy, processing surcharge, or mass conversion was introduced.

@@ -1,0 +1,594 @@
+{
+  "protocol": "source-fixed masses + borrowed kinematics/Coulomb/pseudoscalar-weak laws",
+  "primary_recipe": "screened_primary",
+  "recipes": {
+    "structural_control": {
+      "mu": {
+        "numerator": 411,
+        "denominator": 2,
+        "decimal": 205.5
+      },
+      "tau": {
+        "numerator": 6987,
+        "denominator": 2,
+        "decimal": 3493.5
+      },
+      "proton": {
+        "numerator": 1836,
+        "denominator": 1,
+        "decimal": 1836.0
+      },
+      "pion": {
+        "numerator": 273,
+        "denominator": 1,
+        "decimal": 273.0
+      }
+    },
+    "screened_primary": {
+      "mu": {
+        "numerator": 827,
+        "denominator": 4,
+        "decimal": 206.75
+      },
+      "tau": {
+        "numerator": 13909,
+        "denominator": 4,
+        "decimal": 3477.25
+      },
+      "proton": {
+        "numerator": 251552,
+        "denominator": 137,
+        "decimal": 1836.14598540146
+      },
+      "pion": {
+        "numerator": 37421,
+        "denominator": 137,
+        "decimal": 273.1459854014599
+      }
+    }
+  },
+  "predictions": {
+    "structural_control": {
+      "pion_e_mu_ratio_LO": {
+        "numerator": 18939904,
+        "denominator": 150222132225,
+        "decimal": 0.0001260793181369051
+      },
+      "recoil": {
+        "momentum_MeV_c": {
+          "numerator": 440123396229297,
+          "denominator": 14560000000000,
+          "decimal": 30.22825523552864
+        },
+        "muon_total_energy_MeV": {
+          "numerator": 7955180564446851,
+          "denominator": 72800000000000,
+          "decimal": 109.27445830284135
+        },
+        "muon_kinetic_energy_MeV": {
+          "numerator": 12417274501767,
+          "denominator": 2912000000000,
+          "decimal": 4.26417393604636
+        },
+        "neutrino_energy_MeV": {
+          "numerator": 440123396229297,
+          "denominator": 14560000000000,
+          "decimal": 30.22825523552864
+        },
+        "beta": {
+          "numerator": 14355,
+          "denominator": 51893,
+          "decimal": 0.2766269053629584
+        }
+      },
+      "spectroscopy": {
+        "muonium_1S2S_Hz": {
+          "numerator": 206877069931789303805,
+          "denominator": 84252,
+          "decimal": 2455455893412492.5
+        },
+        "hydrogen_minus_muonium_Hz": {
+          "numerator": 893536252044769015,
+          "denominator": 84252,
+          "decimal": 10605519774542.67
+        },
+        "effective_Coulomb_coefficient_Hz": {
+          "numerator": 1510051605341527765,
+          "denominator": 612,
+          "decimal": 2467404583891385.0
+        }
+      },
+      "sensitivities": {
+        "dlog_p_dlog_mu": {
+          "numerator": -37538,
+          "denominator": 14355,
+          "decimal": -2.614977359804946
+        },
+        "dlog_p_dlog_pion": {
+          "numerator": 51893,
+          "denominator": 14355,
+          "decimal": 3.614977359804946
+        },
+        "dlog_nu_Mu_dlog_mu": {
+          "numerator": 2,
+          "denominator": 413,
+          "decimal": 0.004842615012106538
+        },
+        "dlog_shift_dlog_mu": {
+          "numerator": -503338,
+          "denominator": 448931,
+          "decimal": -1.1211923435895494
+        }
+      }
+    },
+    "screened_primary": {
+      "pion_e_mu_ratio_LO": {
+        "numerator": 892416008755769245696,
+        "denominator": 6957746776976114738049025,
+        "decimal": 0.00012826221438654015
+      },
+      "recoil": {
+        "momentum_MeV_c": {
+          "numerator": 97791263760781628079,
+          "denominator": 3281073280000000000,
+          "decimal": 29.80465701783461
+        },
+        "muon_total_energy_MeV": {
+          "numerator": 1800860624458253479733,
+          "denominator": 16405366400000000000,
+          "decimal": 109.77265490749743
+        },
+        "muon_kinetic_energy_MeV": {
+          "numerator": 2705981095307331301,
+          "denominator": 656214656000000000,
+          "decimal": 4.123621852339932
+        },
+        "neutrino_energy_MeV": {
+          "numerator": 97791263760781628079,
+          "denominator": 3281073280000000000,
+          "decimal": 29.80465701783461
+        },
+        "beta": {
+          "numerator": 9568636455,
+          "denominator": 35241963257,
+          "decimal": 0.2715125824637313
+        }
+      },
+      "spectroscopy": {
+        "muonium_1S2S_Hz": {
+          "numerator": 171100933052181125433035,
+          "denominator": 69679904,
+          "decimal": 2455527680580345.5
+        },
+        "hydrogen_minus_muonium_Hz": {
+          "numerator": 733989476795807411605,
+          "denominator": 69679904,
+          "decimal": 10533732606689.691
+        },
+        "effective_Coulomb_coefficient_Hz": {
+          "numerator": 620680531023631652115,
+          "denominator": 251552,
+          "decimal": 2467404477100685.5
+        }
+      },
+      "sensitivities": {
+        "dlog_p_dlog_mu": {
+          "numerator": -25673326802,
+          "denominator": 9568636455,
+          "decimal": -2.6830705631610288
+        },
+        "dlog_p_dlog_pion": {
+          "numerator": 35241963257,
+          "denominator": 9568636455,
+          "decimal": 3.6830705631610288
+        },
+        "dlog_nu_Mu_dlog_mu": {
+          "numerator": 4,
+          "denominator": 831,
+          "decimal": 0.0048134777376654635
+        },
+        "dlog_shift_dlog_mu": {
+          "numerator": -832587212,
+          "denominator": 742007379,
+          "decimal": -1.1220740326357321
+        }
+      }
+    }
+  },
+  "calibrations": {
+    "electron_rest_energy_MeV": {
+      "numerator": 51099895069,
+      "denominator": 100000000000,
+      "decimal": 0.51099895069
+    },
+    "electron_rest_energy_sigma_MeV": {
+      "numerator": 1,
+      "denominator": 6250000000,
+      "decimal": 1.6e-10
+    },
+    "hydrogen_1S2S_Hz": {
+      "numerator": 2466061413187035,
+      "denominator": 1,
+      "decimal": 2466061413187035.0
+    },
+    "hydrogen_sigma_Hz": {
+      "numerator": 10,
+      "denominator": 1,
+      "decimal": 10.0
+    }
+  },
+  "comparisons": [
+    {
+      "recipe": "structural_control",
+      "quantity": "pion_e_mu_ratio_LO",
+      "prediction": {
+        "numerator": 18939904,
+        "denominator": 150222132225,
+        "decimal": 0.0001260793181369051
+      },
+      "observation": {
+        "numerator": 12327,
+        "denominator": 100000000,
+        "decimal": 0.00012327
+      },
+      "observation_sigma": 2.3e-07,
+      "fractional_error": {
+        "numerator": 1688087042497,
+        "denominator": 74071528957503,
+        "decimal": 0.02278995811556023
+      }
+    },
+    {
+      "recipe": "structural_control",
+      "quantity": "muon_recoil_MeV_c",
+      "prediction": {
+        "numerator": 440123396229297,
+        "denominator": 14560000000000,
+        "decimal": 30.22825523552864
+      },
+      "observation": {
+        "numerator": 3724,
+        "denominator": 125,
+        "decimal": 29.792
+      },
+      "observation_sigma": 0.00011,
+      "fractional_error": {
+        "numerator": 6351876229297,
+        "denominator": 433771520000000,
+        "decimal": 0.01464336853949517
+      }
+    },
+    {
+      "recipe": "structural_control",
+      "quantity": "H_minus_Mu_1S2S_Hz",
+      "prediction": {
+        "numerator": 893536252044769015,
+        "denominator": 84252,
+        "decimal": 10605519774542.67
+      },
+      "observation": {
+        "numerator": 10532472187035,
+        "denominator": 1,
+        "decimal": 10532472187035.0
+      },
+      "observation_sigma": 9800000.000005102,
+      "fractional_error": {
+        "numerator": 1230881068539239,
+        "denominator": 177476369340414564,
+        "decimal": 0.006935464552907919
+      }
+    },
+    {
+      "recipe": "structural_control",
+      "quantity": "muonium_1S2S_Hz",
+      "prediction": {
+        "numerator": 206877069931789303805,
+        "denominator": 84252,
+        "decimal": 2455455893412492.5
+      },
+      "observation": {
+        "numerator": 2455528941000000,
+        "denominator": 1,
+        "decimal": 2455528941000000.0
+      },
+      "observation_sigma": 9800000.0,
+      "fractional_error": {
+        "numerator": -1230881068539239,
+        "denominator": 41376644867426400000,
+        "decimal": -2.9748208741502992e-05
+      }
+    },
+    {
+      "recipe": "screened_primary",
+      "quantity": "pion_e_mu_ratio_LO",
+      "prediction": {
+        "numerator": 892416008755769245696,
+        "denominator": 6957746776976114738049025,
+        "decimal": 0.00012826221438654015
+      },
+      "observation": {
+        "numerator": 12327,
+        "denominator": 100000000,
+        "decimal": 0.00012327
+      },
+      "observation_sigma": 2.3e-07,
+      "fractional_error": {
+        "numerator": 138938254231694327746786753,
+        "denominator": 3430725780791382655037213247,
+        "decimal": 0.04049821032319428
+      }
+    },
+    {
+      "recipe": "screened_primary",
+      "quantity": "muon_recoil_MeV_c",
+      "prediction": {
+        "numerator": 97791263760781628079,
+        "denominator": 3281073280000000000,
+        "decimal": 29.80465701783461
+      },
+      "observation": {
+        "numerator": 3724,
+        "denominator": 125,
+        "decimal": 29.792
+      },
+      "observation_sigma": 0.00011,
+      "fractional_error": {
+        "numerator": 44606447928709,
+        "denominator": 104994344960000000,
+        "decimal": 0.0004248461947708026
+      }
+    },
+    {
+      "recipe": "screened_primary",
+      "quantity": "H_minus_Mu_1S2S_Hz",
+      "prediction": {
+        "numerator": 733989476795807411605,
+        "denominator": 69679904,
+        "decimal": 10533732606689.691
+      },
+      "observation": {
+        "numerator": 10532472187035,
+        "denominator": 1,
+        "decimal": 10532472187035.0
+      },
+      "observation_sigma": 9800000.000005102,
+      "fractional_error": {
+        "numerator": 17565184107713393,
+        "denominator": 146780330175053768928,
+        "decimal": 0.0001196698773382287
+      }
+    },
+    {
+      "recipe": "screened_primary",
+      "quantity": "muonium_1S2S_Hz",
+      "prediction": {
+        "numerator": 171100933052181125433035,
+        "denominator": 69679904,
+        "decimal": 2455527680580345.5
+      },
+      "observation": {
+        "numerator": 2455528941000000,
+        "denominator": 1,
+        "decimal": 2455528941000000.0
+      },
+      "observation_sigma": 9800000.0,
+      "fractional_error": {
+        "numerator": -566618842184303,
+        "denominator": 1103877554052268800000,
+        "decimal": -5.132986354367646e-07
+      }
+    },
+    {
+      "recipe": "measured_mass_bridge_control",
+      "quantity": "pion_e_mu_ratio_LO",
+      "prediction": {
+        "numerator": 34844452523169155212257579883259315952134565471889000000000000000000000000000000000000000000,
+        "denominator": 271512584717393381028147492892821976010185476916145366374760604833074892798936169600948343800121,
+        "decimal": 0.00012833457631231847
+      },
+      "observation": {
+        "numerator": 12327,
+        "denominator": 100000000,
+        "decimal": 0.00012327
+      },
+      "observation_sigma": 2.3e-07,
+      "fractional_error": {
+        "numerator": 137509620505607313291783843436115096935900173243576068698326024222685796467513837329109765975908433,
+        "denominator": 3346935631811308207933974144889816498277556373945323931301673975777314203532486162670890234024091567,
+        "decimal": 0.04108523008289505
+      }
+    },
+    {
+      "recipe": "measured_mass_bridge_control",
+      "quantity": "muon_recoil_MeV_c",
+      "prediction": {
+        "numerator": 8316201452367408149555044181586766716031,
+        "denominator": 279140780000000000000000000000000000000,
+        "decimal": 29.792140913152885
+      },
+      "observation": {
+        "numerator": 3724,
+        "denominator": 125,
+        "decimal": 29.792
+      },
+      "observation_sigma": 0.00011,
+      "fractional_error": {
+        "numerator": 39334607408149555044181586766716031,
+        "denominator": 8316162117760000000000000000000000000000,
+        "decimal": 4.729899062951954e-06
+      }
+    },
+    {
+      "recipe": "measured_mass_bridge_control",
+      "quantity": "H_minus_Mu_1S2S_Hz",
+      "prediction": {
+        "numerator": 2232312207343697536309687450000000,
+        "denominator": 211941270962629969739,
+        "decimal": 10532692368997.375
+      },
+      "observation": {
+        "numerator": 10532472187035,
+        "denominator": 1,
+        "decimal": 10532472187035.0
+      },
+      "observation_sigma": 9800000.000005102,
+      "fractional_error": {
+        "numerator": 9333128989743835465250373227,
+        "denominator": 446453108339749763426472239626773,
+        "decimal": 2.090505993888466e-05
+      }
+    },
+    {
+      "recipe": "measured_mass_bridge_control",
+      "quantity": "muonium_1S2S_Hz",
+      "prediction": {
+        "numerator": 520427877975415871448891390147133865,
+        "denominator": 211941270962629969739,
+        "decimal": 2455528720818037.5
+      },
+      "observation": {
+        "numerator": 2455528941000000,
+        "denominator": 1,
+        "decimal": 2455528941000000.0
+      },
+      "observation_sigma": 9800000.0,
+      "fractional_error": {
+        "numerator": -9333128989743835465250373227,
+        "denominator": 104085584928212164033613743279800000,
+        "decimal": -8.966783437092557e-08
+      }
+    }
+  ],
+  "comparison_targets": {
+    "pion_e_mu_ratio_LO": [
+      {
+        "numerator": 12327,
+        "denominator": 100000000,
+        "decimal": 0.00012327
+      },
+      2.3e-07
+    ],
+    "muon_recoil_MeV_c": [
+      {
+        "numerator": 3724,
+        "denominator": 125,
+        "decimal": 29.792
+      },
+      0.00011
+    ],
+    "H_minus_Mu_1S2S_Hz": [
+      {
+        "numerator": 10532472187035,
+        "denominator": 1,
+        "decimal": 10532472187035.0
+      },
+      9800000.000005102
+    ],
+    "muonium_1S2S_Hz": [
+      {
+        "numerator": 2455528941000000,
+        "denominator": 1,
+        "decimal": 2455528941000000.0
+      },
+      9800000.0
+    ]
+  },
+  "measured_mass_control": {
+    "inputs": {
+      "mu": {
+        "numerator": 2067682827,
+        "denominator": 10000000,
+        "decimal": 206.7682827
+      },
+      "pion": {
+        "numerator": 13957039000000,
+        "denominator": 51099895069,
+        "decimal": 273.1324395315071
+      },
+      "proton": {
+        "numerator": 918076336713,
+        "denominator": 500000000,
+        "decimal": 1836.152673426
+      }
+    },
+    "outputs": {
+      "pion_e_mu_ratio_LO": {
+        "numerator": 34844452523169155212257579883259315952134565471889000000000000000000000000000000000000000000,
+        "denominator": 271512584717393381028147492892821976010185476916145366374760604833074892798936169600948343800121,
+        "decimal": 0.00012833457631231847
+      },
+      "recoil": {
+        "momentum_MeV_c": {
+          "numerator": 8316201452367408149555044181586766716031,
+          "denominator": 279140780000000000000000000000000000000,
+          "decimal": 29.792140913152885
+        },
+        "muon_total_energy_MeV": {
+          "numerator": 30643586077136791850444955818413233283969,
+          "denominator": 279140780000000000000000000000000000000,
+          "decimal": 109.77824908684711
+        },
+        "muon_kinetic_energy_MeV": {
+          "numerator": 1150024727741665828500686678413233283969,
+          "denominator": 279140780000000000000000000000000000000,
+          "decimal": 4.119873591173836
+        },
+        "neutrino_energy_MeV": {
+          "numerator": 8316201452367408149555044181586766716031,
+          "denominator": 279140780000000000000000000000000000000,
+          "decimal": 29.792140913152885
+        },
+        "beta": {
+          "numerator": 8316201452367408149555044181586766716031,
+          "denominator": 30643586077136791850444955818413233283969,
+          "decimal": 0.27138473387003925
+        }
+      },
+      "spectroscopy": {
+        "muonium_1S2S_Hz": {
+          "numerator": 520427877975415871448891390147133865,
+          "denominator": 211941270962629969739,
+          "decimal": 2455528720818037.5
+        },
+        "hydrogen_minus_muonium_Hz": {
+          "numerator": 2232312207343697536309687450000000,
+          "denominator": 211941270962629969739,
+          "decimal": 10532692368997.375
+        },
+        "effective_Coulomb_coefficient_Hz": {
+          "numerator": 755088553011543493535371985,
+          "denominator": 306025445571,
+          "decimal": 2467404472208693.5
+        }
+      },
+      "sensitivities": {
+        "dlog_p_dlog_mu": {
+          "numerator": -22327384624769383700889911636826466567938,
+          "denominator": 8316201452367408149555044181586766716031,
+          "decimal": -2.6848056474646067
+        },
+        "dlog_p_dlog_pion": {
+          "numerator": 30643586077136791850444955818413233283969,
+          "denominator": 8316201452367408149555044181586766716031,
+          "decimal": 3.6848056474646067
+        },
+        "dlog_nu_Mu_dlog_mu": {
+          "numerator": 10000000,
+          "denominator": 2077682827,
+          "decimal": 0.004813054172680997
+        },
+        "dlog_shift_dlog_mu": {
+          "numerator": -633108172236679909217,
+          "denominator": 564223994532211377067,
+          "decimal": -1.1220865797484902
+        }
+      }
+    }
+  },
+  "truly_blinded": false,
+  "native_dynamics_changed": false,
+  "radiative_corrections_applied": false,
+  "joint_significance_computed": false,
+  "original_Cell17_changed": false,
+  "source_checked_date": "2026-09-19"
+}

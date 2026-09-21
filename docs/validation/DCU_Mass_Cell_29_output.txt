@@ -1,0 +1,50 @@
+CELL 29 — CONDITIONAL RECORDING BACK-ACTION, NOT A GRAVITATIONAL FIELD
+Same two saved checkpoints; no search process, particle label, mass dictionary or phase rule changed.
+A legal 3-slot service selects two named old parents and one forced token; all enabled pairs form.
+The event is conditioned, NOT freely selected by an autonomous internal observer.
+New observation starts AFTER that event; prior graph, records, work and maintenance are retained.
+Clock 3,4 and reference 0,1; phase increments 1/27 (primary), 1/81 (control).
+512 continuations/arm x 1024 updates; 3,145,728 native updates.
+
+no_relief: pre-event n,F,P = 18, 691, 2842
+ arm              pair          cost(repeat+premium)   post n/F     next-token rate / control
+ existing_pair     (0, 1)            0+0       18/690                1 = 1.000000
+ recorded_pair     (13, 15)        264+0       19/954          708/973 = 0.727646
+ first_use_pair    (15, 17)        344+360     19/1394         236/471 = 0.501062
+ At 128 continuation updates: mean tagged services; paired change vs existing-pair control; P0
+  existing_pair    : 1.582031 +/- 0.054410; change=+0.000000; P0=0.874430 +/- 0.006542
+  recorded_pair    : 1.005859 +/- 0.044880; change=-0.576172; P0=0.933685 +/- 0.004476
+  first_use_pair   : 0.628906 +/- 0.034835; change=-0.953125; P0=0.965694 +/- 0.002817
+ At 1024 continuation updates: mean tagged services; paired change vs existing-pair control; P0
+  existing_pair    : 14.191406 +/- 0.193985; change=+0.000000; P0=0.100638 +/- 0.006766
+  recorded_pair    : 12.083984 +/- 0.176986; change=-2.107422; P0=0.083722 +/- 0.005204
+  first_use_pair   : 11.402344 +/- 0.186633; change=-2.789062; P0=0.096407 +/- 0.006321
+ Terminal tagged-minus-reference and tagged-minus-2chi (Monte Carlo SE):
+  existing_pair    : +0.177734 +/- 0.231330; +0.107793 +/- 0.162577
+  recorded_pair    : -0.027344 +/- 0.216715; -0.062660 +/- 0.149118
+  first_use_pair   : -0.083984 +/- 0.201638; -0.017304 +/- 0.148024
+
+relief_H6: pre-event n,F,P = 32, 339, 25
+ arm              pair          cost(repeat+premium)   post n/F     next-token rate / control
+ existing_pair     (0, 1)            0+0       32/334                1 = 1.000000
+ recorded_pair     (24, 25)        292+0       33/626          366/659 = 0.555387
+ first_use_pair    (25, 31)        336+414     33/1084        366/1117 = 0.327663
+ At 128 continuation updates: mean tagged services; paired change vs existing-pair control; P0
+  existing_pair    : 2.027344 +/- 0.069551; change=+0.000000; P0=0.811955 +/- 0.009141
+  recorded_pair    : 1.726562 +/- 0.062491; change=-0.300781; P0=0.851408 +/- 0.007864
+  first_use_pair   : 1.339844 +/- 0.052854; change=-0.687500; P0=0.897861 +/- 0.005914
+ At 1024 continuation updates: mean tagged services; paired change vs existing-pair control; P0
+  existing_pair    : 10.128906 +/- 0.154973; change=+0.000000; P0=0.097689 +/- 0.005849
+  recorded_pair    : 9.875000 +/- 0.150525; change=-0.253906; P0=0.106595 +/- 0.006390
+  first_use_pair   : 9.630859 +/- 0.146239; change=-0.498047; P0=0.106350 +/- 0.006070
+ Terminal tagged-minus-reference and tagged-minus-2chi (Monte Carlo SE):
+  existing_pair    : -0.134766 +/- 0.204333; -0.103370 +/- 0.144927
+  recorded_pair    : +0.228516 +/- 0.196540; +0.108185 +/- 0.139673
+  first_use_pair   : +0.162109 +/- 0.180897; +0.064508 +/- 0.133871
+
+Exact immediate law: p_new/p_control = R0/(R0+C+1); same for all old tokens.
+Longer-run differences include native growth/queue feedback; no monotonicity claim.
+Outcome probabilities are nonlinear: slower phase accumulation need not increase P0.
+Both local clock pairs have equal conditional drift; no relative redshift or locality is obtained.
+PASS: actual original native_step, all enabled births, exact one-step enumeration, full budget checks,
+      tensor readout (max error 7.216e-16), native ancestry preservation, prior dictionaries unchanged.

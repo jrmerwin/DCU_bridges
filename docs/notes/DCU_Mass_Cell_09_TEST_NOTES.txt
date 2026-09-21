@@ -1,0 +1,14 @@
+CELL 9 EXECUTION AND VALIDATION
+Executed unchanged Cells 1–5 and 8 in a fresh namespace; Cell 1 archive path alone pointed to its mounted original ZIP.
+Executed Cell 9 unchanged in that namespace.
+Cell 9 runtime in this container: 0.385 seconds (not a guarantee for another machine).
+333 exact distance/Gram audits: 63 candidate readouts and 270 nonclique-control readouts.
+Additional checks in Cell 9: all 63 primitive-exchange and vertex-order checks; 14 local/common path agreements; 135 K5 four-point restrictions; exact negative-eigenvector certificate for K4-1 parent-child hops.
+All 333 main classifications independently agree with NumPy eigenvalue signs/ranks at 1e-10 tolerance; classifications themselves use rational arithmetic and all principal minors, not floating-point cutoffs.
+Seven weighted-ancestry Gram matrices independently agree with directly constructed centered ancestry-feature inner products.
+Cell 9 replay produced identical results.
+Original files and original physical calibration were not modified.
+All source metrics and readout conventions are reported; no candidate selection based on metric results.
+The 30 nonclique controls share the original eight core vertices; they are specificity controls, not independent stochastic observations.
+Full ancestry-feature rank n-1 follows from triangularity of the selected-root ancestry incidence matrix with nonzero diagonal weights.
+Exact Euclidean nonembeddability is not a physical strain or mass measurement; no new physical dynamics are supplied.

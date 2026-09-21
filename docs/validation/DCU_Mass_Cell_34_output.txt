@@ -1,0 +1,36 @@
+CELL 34 — ARCHITECTURE -> PROTECTED AND READABLE STATE (EXACT PAIR TEST)
+Primary: original two-qutrit apparatus, original +/- path-support coupling; no storage pulses.
+Native input: all four Cell26 panels and all 512 saved histories; no new native simulation.
+
+ environment       length paths supports pairs protected(max dim 3) unique-support protected
+ no_relief           3    17       13   136                    4                        0
+ no_relief           4    17       12   136                    5                        0
+ relief_H6           3    42       29   861                   13                        0
+ relief_H6           4    40       26   780                   14                        0
+
+Exact classification: identical supports -> blocks [3,2,2,1,1]; distinct equal-length supports -> nine singletons.
+All 36 equal-support pairs differ only in primitive entry into register 2; their composite chains coincide.
+All-time protection follows from integer character equality; initial legal singleton draws prove necessity.
+No approximate zero, finite-ensemble eigenvalue cutoff, or target mass is used.
+Protected diagonal code: span{|00>,|11>,|22>}. Three phase codewords decode perfectly via b-a modulo 3.
+Codeword populations and local marginals are identical. Full phase erasure reduces decoding success to 1/3.
+
+PRIMARY length-3 terminal correct-word probability, grouped by shared registers:
+ no_relief         shared=3: 1.000000000 +/- 0.000000000 MC SE
+ no_relief         shared=2: 0.602864287 +/- 0.008217007 MC SE
+ no_relief         shared=1: 0.467629511 +/- 0.008454834 MC SE
+ no_relief         shared=0: 0.409071019 +/- 0.008238820 MC SE
+ relief_H6         shared=3: 1.000000000 +/- 0.000000000 MC SE
+ relief_H6         shared=2: 0.671111700 +/- 0.005430031 MC SE
+ relief_H6         shared=1: 0.530541465 +/- 0.006829147 MC SE
+ relief_H6         shared=0: 0.456325579 +/- 0.006953019 MC SE
+
+ENTRY-SENSITIVE SENSITIVITY (a DIFFERENT coupling, not a revision to the primary):
+ no_relief         first alias (0, 6), support=(2, 3, 6), address agreement=1/3; secondary success=0.090157660
+ relief_H6         first alias (0, 20), support=(2, 3, 9), address agreement=1/3; secondary success=0.151684098
+Actual S=(0 1) conjugation is NOT sign inversion. Every distinct path pair is nondegenerate in this secondary model.
+
+PASS: {'record_paths': 116, 'exact_noise_classifications': 7652, 'path_pairs': 1913, 'protected_pairs': 36, 'genesis_entry_alias_pairs': 36, 'exact_zero_difference_snapshots': 156672, 'prior_group_checkpoint_regressions': 612, 'dense_encoded_state_checks': 1296, 'protected_matrix_unit_checks': 864}
+Max numerical errors: {'old_cell26_P0_regression': 0.0, 'dense_decode': 1.7763568394002505e-15, 'protected_matrix_units': 4.440892098500626e-16}
+Verdict: usable conditional shared-input quantum memory; NO extra two-path architecture-specific protection.
+Not a particle, mass mechanism, autonomous memory, readout-cost derivation, SI map or spatial result.

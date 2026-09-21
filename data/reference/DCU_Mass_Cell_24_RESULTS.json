@@ -1,0 +1,592 @@
+{
+  "protocol": "declared finite phase family + sibling tensor readout + generator identifiability audit",
+  "local_phase_labels": [
+    0,
+    1,
+    2
+  ],
+  "local_probability_harmonics": {
+    "constant": "1/3",
+    "cos1": "4/9",
+    "cos2": "2/9"
+  },
+  "clock_settings_checked": 363,
+  "exact_composition_checks": 7380,
+  "coarse_alias": {
+    "coarse_denominator": 9,
+    "primary_labels": [
+      0,
+      1,
+      2
+    ],
+    "alternative_labels": [
+      0,
+      1,
+      11
+    ],
+    "coarse_max_gate_error": 0.0,
+    "refined_setting": "1/27",
+    "primary_probabilities": [
+      0.96438275144068,
+      0.02020127181441851,
+      0.015415976744901624
+    ],
+    "alias_probabilities": [
+      0.21140342695514544,
+      0.47291040199072415,
+      0.3156861710541308
+    ],
+    "refined_total_variation": 0.7529793244855346,
+    "alternative_obeys_entire_source_phase_family": false
+  },
+  "siblings": {
+    "2": {
+      "fixture": {
+        "parentage": [
+          null,
+          null,
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "common_source": 2,
+        "siblings": [
+          3,
+          4
+        ],
+        "other_children": [],
+        "co_served_set": [
+          0,
+          1,
+          2
+        ],
+        "setup_work": 0,
+        "entire_burst_work": 26,
+        "minimum_co_service_capacity": 3,
+        "all_enabled_pairs_constructed": true,
+        "service_history_simulated": false,
+        "quantum_state_is_declared_instrument": true
+      },
+      "one_port": {
+        "phase_sum": "1/27",
+        "probabilities": [
+          0.9643827514406804,
+          0.020201271814418546,
+          0.015415976744901638
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "one_unit_on_each": {
+        "phase_sum": "2/27",
+        "probabilities": [
+          0.8632053049665804,
+          0.08677155209713477,
+          0.050023142936285465
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "same_total_on_one_port": {
+        "phase_sum": "2/27",
+        "probabilities": [
+          0.8632053049665807,
+          0.08677155209713475,
+          0.05002314293628546
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "phase_erased": {
+        "phase_sum": "2/27",
+        "probabilities": [
+          0.3333333333333335,
+          0.3333333333333335,
+          0.3333333333333335
+        ],
+        "local_marginals_uniform": true,
+        "coherent": false
+      },
+      "total_local_setting_units": 2,
+      "setting_depth": 3,
+      "new_recording_work_for_settings": null
+    },
+    "3": {
+      "fixture": {
+        "parentage": [
+          null,
+          null,
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "common_source": 3,
+        "siblings": [
+          4,
+          6,
+          7
+        ],
+        "other_children": [
+          5
+        ],
+        "co_served_set": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "setup_work": 22,
+        "entire_burst_work": 76,
+        "minimum_co_service_capacity": 4,
+        "all_enabled_pairs_constructed": true,
+        "service_history_simulated": false,
+        "quantum_state_is_declared_instrument": true
+      },
+      "one_port": {
+        "phase_sum": "1/27",
+        "probabilities": [
+          0.9643827514406806,
+          0.020201271814418595,
+          0.015415976744901666
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "one_unit_on_each": {
+        "phase_sum": "1/9",
+        "probabilities": [
+          0.712386014201086,
+          0.2016897187884344,
+          0.08592426701048048
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "same_total_on_one_port": {
+        "phase_sum": "1/9",
+        "probabilities": [
+          0.712386014201086,
+          0.2016897187884344,
+          0.08592426701048048
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "phase_erased": {
+        "phase_sum": "1/9",
+        "probabilities": [
+          0.33333333333333354,
+          0.33333333333333354,
+          0.33333333333333354
+        ],
+        "local_marginals_uniform": true,
+        "coherent": false
+      },
+      "total_local_setting_units": 3,
+      "setting_depth": 3,
+      "new_recording_work_for_settings": null
+    },
+    "4": {
+      "fixture": {
+        "parentage": [
+          null,
+          null,
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "common_source": 4,
+        "siblings": [
+          5,
+          8,
+          10,
+          11
+        ],
+        "other_children": [
+          6,
+          7,
+          9
+        ],
+        "co_served_set": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "setup_work": 70,
+        "entire_burst_work": 178,
+        "minimum_co_service_capacity": 5,
+        "all_enabled_pairs_constructed": true,
+        "service_history_simulated": false,
+        "quantum_state_is_declared_instrument": true
+      },
+      "one_port": {
+        "phase_sum": "1/27",
+        "probabilities": [
+          0.9643827514406809,
+          0.020201271814418643,
+          0.015415976744901702
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "one_unit_on_each": {
+        "phase_sum": "4/27",
+        "probabilities": [
+          0.5350031001543292,
+          0.35687064315768546,
+          0.10812625668798645
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "same_total_on_one_port": {
+        "phase_sum": "4/27",
+        "probabilities": [
+          0.5350031001543294,
+          0.3568706431576855,
+          0.1081262566879864
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "phase_erased": {
+        "phase_sum": "4/27",
+        "probabilities": [
+          0.33333333333333354,
+          0.33333333333333354,
+          0.33333333333333354
+        ],
+        "local_marginals_uniform": true,
+        "coherent": false
+      },
+      "total_local_setting_units": 4,
+      "setting_depth": 3,
+      "new_recording_work_for_settings": null
+    },
+    "5": {
+      "fixture": {
+        "parentage": [
+          null,
+          null,
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "common_source": 5,
+        "siblings": [
+          6,
+          10,
+          13,
+          15,
+          16
+        ],
+        "other_children": [
+          7,
+          8,
+          9,
+          11,
+          12,
+          14
+        ],
+        "co_served_set": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "setup_work": 148,
+        "entire_burst_work": 372,
+        "minimum_co_service_capacity": 6,
+        "all_enabled_pairs_constructed": true,
+        "service_history_simulated": false,
+        "quantum_state_is_declared_instrument": true
+      },
+      "one_port": {
+        "phase_sum": "1/27",
+        "probabilities": [
+          0.9643827514406811,
+          0.020201271814418695,
+          0.015415976744901739
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "one_unit_on_each": {
+        "phase_sum": "5/27",
+        "probabilities": [
+          0.3568706431576841,
+          0.5350031001543308,
+          0.10812625668798642
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "same_total_on_one_port": {
+        "phase_sum": "5/27",
+        "probabilities": [
+          0.3568706431576842,
+          0.5350031001543311,
+          0.10812625668798634
+        ],
+        "local_marginals_uniform": true,
+        "coherent": true
+      },
+      "phase_erased": {
+        "phase_sum": "5/27",
+        "probabilities": [
+          0.33333333333333365,
+          0.33333333333333365,
+          0.3333333333333336
+        ],
+        "local_marginals_uniform": true,
+        "coherent": false
+      },
+      "total_local_setting_units": 5,
+      "setting_depth": 3,
+      "new_recording_work_for_settings": null
+    }
+  },
+  "allocation_checks": 494,
+  "tensor_grid_checks": 108,
+  "cavity_normalizer": 12,
+  "cavities": {
+    "3": {
+      "signed": {
+        "integer_mode_charges": [
+          -12,
+          6,
+          6
+        ],
+        "phase_gap": 18,
+        "unscaled_gap": "3/2",
+        "vertex_return_at_1_27": 0.3333333333333334,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      },
+      "magnitude": {
+        "integer_mode_charges": [
+          12,
+          6,
+          6
+        ],
+        "phase_gap": 6,
+        "unscaled_gap": "1/2",
+        "vertex_return_at_1_27": 0.6327325234075247,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      }
+    },
+    "4": {
+      "signed": {
+        "integer_mode_charges": [
+          -12,
+          4,
+          4,
+          4
+        ],
+        "phase_gap": 16,
+        "unscaled_gap": "4/3",
+        "vertex_return_at_1_27": 0.31169207072014876,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      },
+      "magnitude": {
+        "integer_mode_charges": [
+          12,
+          4,
+          4,
+          4
+        ],
+        "phase_gap": 8,
+        "unscaled_gap": "2/3",
+        "vertex_return_at_1_27": 0.5174487877333411,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      }
+    },
+    "5": {
+      "signed": {
+        "integer_mode_charges": [
+          -12,
+          3,
+          3,
+          3,
+          3
+        ],
+        "phase_gap": 15,
+        "unscaled_gap": "5/4",
+        "vertex_return_at_1_27": 0.3792983613485093,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      },
+      "magnitude": {
+        "integer_mode_charges": [
+          12,
+          3,
+          3,
+          3,
+          3
+        ],
+        "phase_gap": 9,
+        "unscaled_gap": "3/4",
+        "vertex_return_at_1_27": 0.5199999999999999,
+        "triadic_refinement_compatible": true,
+        "compiled_native_gate_word": false
+      }
+    }
+  },
+  "cavity_representation_checks": 720,
+  "registry_normalizer": 9928,
+  "registry_integer_charges": {
+    "signed": [
+      -9928,
+      -8432,
+      766,
+      136,
+      73
+    ],
+    "magnitude": [
+      9928,
+      8432,
+      766,
+      136,
+      73
+    ]
+  },
+  "selected_physical_energy_generator": null,
+  "selected_phase_to_service_map": null,
+  "physical_calibration": null,
+  "K_n_identified_with_n_siblings": false,
+  "native_dynamics_changed": false,
+  "quantum_postulates_derived": false,
+  "empirical_data_tested": false,
+  "source_parameters_changed": false
+}

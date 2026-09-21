@@ -1,0 +1,40 @@
+CELL 5: CONDITIONAL Q-ONLY MASS RATIO; ARCHITECTURAL BENCHMARK SEPARATE
+Selection uses the old K3/K4 candidates and ALL smallest-support sampled K5s.
+  K3-1: archive 271, core=[5, 9, 11], D=11, h=4, S/I/G=(0, 1, 0)
+  K3-2: archive 275, core=[7, 9, 11], D=11, h=4, S/I/G=(0, 1, 0)
+  K4-1: archive 160, core=[2, 3, 4, 11], D=11, h=4, S/I/G=(1, 2, 0)
+  K4-2: archive 544, core=[2, 3, 5, 9], D=11, h=4, S/I/G=(0, 1, 0)
+  K5-1: archive 1224, core=[2, 3, 4, 9, 11], D=15, h=4, S/I/G=(2, 2, 0)
+  K5-2: archive 1645, core=[2, 3, 4, 10, 11], D=15, h=4, S/I/G=(2, 2, 0)
+  K5-3: archive 1905, core=[2, 3, 4, 9, 10], D=15, h=4, S/I/G=(2, 0, 0)
+
+Frozen electron anchor: K3-1/aaaaa; Q_e=248/9.
+Electron rest energy used: 0.51099895069 MeV.
+The anchor is not reset for probe B, mixed chains, or other instances.
+Old reporting unit 90 is unchanged and cancels from Q/Q_e.
+
+ case      Q(A)       Q(B)       ratio A    ratio B    full 32-probe ratio range
+ K3-1       248/9      308/9    1.000000   1.241935 [1.000000, 1.241935]
+ K3-2       284/9      308/9    1.145161   1.241935 [1.000000, 1.241935]
+ K4-1          28         28    1.016129   1.016129 [1.016129, 1.016129]
+ K4-2        64/3      304/9    0.774194   1.225806 [0.774194, 1.225806]
+ K5-1      472/13     488/13    1.317618   1.362283 [1.317618, 1.362283]
+ K5-2      488/13     472/13    1.362283   1.317618 [1.317618, 1.362283]
+ K5-3      440/13     440/13    1.228288   1.228288 [1.228288, 1.228288]
+
+Separate references (NOT multiplied into Q):
+  K3: RMR T eigenvalues -1 (x1), 1/2 (x2); declared f=1/2.
+  K4: RMR T eigenvalues -1 (x1), 1/3 (x3); declared f=2/3.
+  K5: RMR T eigenvalues -1 (x1), 1/4 (x4); declared f=3/4.
+  Paper Eq. (9): 137*f5/f3 = 411/2 = 205.500000.
+  CODATA muon/electron comparison target = 206.7682827.
+  Measured K5 Q/Q_e envelope = [1.228288, 1.362283].
+  Conditional K5 rest-energy envelope = [0.627654, 0.696125] MeV.
+  Fractional errors vs muon target = [-99.405959%, -99.341155%].
+
+PASS: 224 native histories; 9,600 committed contacts; exact repeat-Q audit.
+K4 is a structural control, NOT assigned a physical vacuum mass.
+This tests the chosen Q-only correspondence, NOT registry-coupled resonance or proton confinement.
+Literal registry counts are not imposed active-channel counts; no 137/136, cubic, or spectral multiplier was applied.
+
+Execution seconds: 1.129

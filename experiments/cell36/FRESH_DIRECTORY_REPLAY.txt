@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "counts": {
+    "exact_fields": 22131,
+    "float_fields": 10979
+  },
+  "max_float_difference": 0.0,
+  "wall_seconds": 0.22947337499999776
+}

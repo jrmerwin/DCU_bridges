@@ -1,0 +1,46 @@
+{
+  "horizontal_residuals": {
+    "sources": [
+      17,
+      18,
+      19
+    ],
+    "transformation": "100 * saved fractional residuals; no combination into a score; no uncertainty bars invented."
+  },
+  "neutrino_profile": {
+    "sources": [
+      22
+    ],
+    "transformation": "Fixed-amplitude slice of released NO surface; primary bilinear values, no new minimum subtraction or fit."
+  },
+  "epoch_activity": {
+    "sources": [
+      "experiments/cell35/replication/replication_results.json"
+    ],
+    "transformation": "Per-arm mean and sample SE of 128 expected readouts, conditional on four worlds. Points only at two saved ages; no interpolation claim."
+  },
+  "record_information": {
+    "sources": [
+      38
+    ],
+    "transformation": "Exact identity and saved plug-in MI estimates for all four H0 length-3 representatives; no new Monte Carlo."
+  },
+  "registry_information": {
+    "sources": [
+      38
+    ],
+    "transformation": "Exact 9,316 pair table ordered by inherited branches/junction. Diagonal masked (formula scoped to distinct roots). S/I/G labels not inferred from matrix."
+  },
+  "inverse_activity": {
+    "sources": [
+      39
+    ],
+    "transformation": "Six new prepared states; median and empirical central 95% range across 64 synthetic datasets, not confidence intervals for a single dataset."
+  },
+  "work_information": {
+    "sources": [
+      39
+    ],
+    "transformation": "All 21 productive events. Marker area counts repeated coordinates within regime. Charges are work obligations, not heat or energy."
+  }
+}

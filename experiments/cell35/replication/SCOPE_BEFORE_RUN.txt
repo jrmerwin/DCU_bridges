@@ -1,0 +1,2 @@
+Fixed earliest length-3 delta-2 pair in each early source, carried unchanged to late epoch. 32 fresh continuations per source epoch; complete-burst local32 and global8192 readings. Added after first pilot world inspection; every original result retained.
+Seeds 20360920+1000*world_index+replicate; paired numbers across early/late, state-dependent draws diverge. No phase fit, pair reselection, changed sampler or changed costs.

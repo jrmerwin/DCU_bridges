@@ -1,0 +1,3 @@
+Fresh-directory execution of reproduce.py and validate.py both passed.
+Every serialized scientific output field also matches exactly on this Linux replay.
+No Mac execution or completed native quantum compiler is claimed.

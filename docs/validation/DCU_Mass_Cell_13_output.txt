@@ -1,0 +1,37 @@
+CELL 13 — SAVED SPECTRA, PRESTRESS, AND A CONDITIONAL SERVICE MARK
+Phi, source distances, normalization, and saved coordinates are unchanged.
+No new native history, coordinate trajectory, kinetic law, or mass fit.
+
+ case   modes    min H      max H    min H_material    softening (%)
+ K3-1       3  1.7556220  6.5520703        1.7556220        0.0000000
+ K3-2       3  1.7556220  6.5520703        1.7556220        0.0000000
+ K4-1       6  0.0167166  3.4856942        0.0167166       -0.0000000
+ K4-2       6  0.1053650  5.2486723        0.1053650        0.0000000
+ K5-1       9  0.0360429  2.4722122        0.0399420       -9.7618896
+ K5-2       9  0.0360429  2.4722122        0.0399420       -9.7618896
+ K5-3       9  0.0200435  2.3979881        0.0399696      -49.8531178
+
+Common unnormalized loss check: min/max of C*H (NOT a new adopted energy).
+  K3-1: 2.441976222, 9.113579333
+  K3-2: 2.441976222, 9.113579333
+  K4-1: 0.076932823, 16.041843557
+  K4-2: 0.275432986, 13.720466110
+  K5-1: 0.294045582, 20.168820314
+  K5-2: 0.294045582, 20.168820314
+  K5-3: 0.210064514, 25.131909372
+
+Per-edge gradient tensor S=sum_e g_e g_e^T, g_e=r_e*grad(r_e)/C:
+ case      trace S         share in softest internal mode (%)
+ K3-1    0.000000e+00                     undefined (exact zero)
+ K3-2    0.000000e+00                     undefined (exact zero)
+ K4-1    0.000000e+00                     undefined (exact zero)
+ K4-2    0.000000e+00                     undefined (exact zero)
+ K5-1    1.005849e-05                                0.344907048
+ K5-2    1.005849e-05                                0.344907048
+ K5-3    2.486752e-04                                0.727032914
+
+Prospective rule ONLY: a served witness applies -epsilon*g_e to attached coordinates.
+The tensor is NOT a measured native noise or extra recording-work rate.
+Native uniform service fixes selection probabilities; it does not supply epsilon or this rule.
+PASS: all 7 saved spectra; six rigid modes; source-certified zero controls;
+      conditional service mean/covariance checked by finite enumeration; old results preserved.

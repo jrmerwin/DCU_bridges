@@ -1,0 +1,9 @@
+28 independent 80-digit threshold values; maximum relative difference 1E-79.
+Photon threshold inherited kaon-input standard uncertainty alone: 0.025728594 MeV (not full theory uncertainty).
+6 independent 80-digit qutrit probabilities; maximum absolute difference 4.441e-16.
+Independent matrix-exponential unitarity error 1.110e-15; exact-metric self-adjointness checked.
+Finite-matrix commutator trace checked; [position,momentum]=i*hbar*I cannot hold exactly at nonzero hbar in finite dimension.
+Deliberate altered muon input rejected: Frozen screened masses changed; no substitute selected.
+Signed-vs-magnitude energy-map gap ratios checked exactly: 5/6 versus 3/2.
+Actual prerequisite Cells 01,14,17,18,19 replayed; Cell23 repeated twice identically; prior dictionaries preserved.
+No native service simulation, measured production cross section, fitted quantum model, or dispersion/LIV prediction was executed.

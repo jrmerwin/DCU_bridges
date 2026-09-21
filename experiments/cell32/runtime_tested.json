@@ -1,0 +1,14 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "platform": "Linux",
+  "primary_dependencies": [
+    "numpy"
+  ],
+  "optional_validation_dependencies": [
+    "numpy",
+    "scipy",
+    "mpmath"
+  ],
+  "primary_new_native_histories": 0
+}

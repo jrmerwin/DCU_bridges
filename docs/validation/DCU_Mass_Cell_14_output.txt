@@ -1,0 +1,30 @@
+CELL 14 — EXACT STRUCTURE, DECLARED OPERATOR, CONDITIONAL PHYSICS KEPT SEPARATE
+Registry N=137; S/I/G=(81, 40, 16); blocks U/A/B=(11, 63, 63); edges=5347.
+
+T=-A D^-1 on the ACTUAL registry-overlap graph:
+   eigenvalue         multiplicity
+               -1                    1
+           -62/73                    1
+            1/136                   10
+             1/73                  124
+         383/4964                    1
+PASS: 137 independent exact eigenvectors; trace and trace(T^2) checked.
+This operator is a declared readout, NOT the native service transition.
+
+Separate fixed RMR/taxonomy prescriptions (not derived by this cell):
+   muon/electron = N*f5/f3 = 411/2
+   Omega_m = I/(N-1) = 5/17
+   Delta m21^2 / m_e^2 = 1/3467480350588928
+   R_nu = 3^2+5^2-1 = 33
+   A full neutrino spectrum additionally assumes normal ordering and m1=0.
+
+PASS: exact N-eliminated consistency identities:
+   Omega_m*(2*r_mu-3) = 120
+   (Delta m21^2/m_e^2)*8*r_mu*(2*r_mu-3)^6 = 2187
+   Delta m21^2/m_e^2 = Omega_m^7 / [4*I^6*(Omega_m+I)]
+Identities are algebraic closure, NOT independent experimental confirmations.
+No empirical targets, SI scale, exclusions of failed formulas, or fitted corrections used.
+The 1+136 mapping, physical observable assignments and depth exponent remain hypotheses.
+Previous reference, geometry results and physical calibrations are unchanged.
+
+Execution seconds: 1.101

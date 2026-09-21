@@ -1,0 +1,153 @@
+{
+  "suite": "compact",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "cells": [
+    {
+      "cell": 14,
+      "seconds": 1.8310428600002524,
+      "checks": {
+        "embedded_assertions": "passed; no separate result JSON"
+      }
+    },
+    {
+      "cell": 17,
+      "seconds": 0.011512777999996615,
+      "checks": {
+        "exact_leaves": 23,
+        "floating_leaves": 56,
+        "archive_only_fields": [
+          "root.validation"
+        ]
+      }
+    },
+    {
+      "cell": 18,
+      "seconds": 0.01334466899970721,
+      "checks": {
+        "exact_leaves": 126,
+        "floating_leaves": 110,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 19,
+      "seconds": 0.013372943000376836,
+      "checks": {
+        "exact_leaves": 84,
+        "floating_leaves": 123,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 20,
+      "seconds": 1.1046138440001414,
+      "checks": {
+        "exact_leaves": 87,
+        "floating_leaves": 108119,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 21,
+      "seconds": 2.6414108060002945,
+      "checks": {
+        "exact_leaves": 43,
+        "floating_leaves": 1914,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 22,
+      "seconds": 0.14641772799996033,
+      "checks": {
+        "exact_leaves": 1662,
+        "floating_leaves": 95,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 23,
+      "seconds": 0.0339055780000308,
+      "checks": {
+        "embedded_assertions": "passed; no separate result JSON"
+      }
+    },
+    {
+      "cell": 24,
+      "seconds": 0.7187882129996979,
+      "checks": {
+        "exact_leaves": 295,
+        "floating_leaves": 62,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 32,
+      "seconds": 0.7477530659998592,
+      "checks": {
+        "exact_leaves": 9870,
+        "floating_leaves": 36164,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 33,
+      "seconds": 2.6906316690001404,
+      "checks": {
+        "exact_leaves": 219843,
+        "floating_leaves": 15630,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 34,
+      "seconds": 3.1809656369996446,
+      "checks": {
+        "exact_leaves": 52030,
+        "floating_leaves": 28045,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 36,
+      "seconds": 0.4322941210002682,
+      "checks": {
+        "exact_leaves": 22131,
+        "floating_leaves": 10979,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 37,
+      "seconds": 0.16882691799992244,
+      "checks": {
+        "exact_leaves": 22706,
+        "floating_leaves": 45,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 38,
+      "seconds": 5.921396320999975,
+      "checks": {
+        "exact_leaves": 46633,
+        "floating_leaves": 4091,
+        "archive_only_fields": []
+      }
+    },
+    {
+      "cell": 39,
+      "seconds": 2.3482507659996372,
+      "checks": {
+        "exact_leaves": 30353,
+        "floating_leaves": 1913,
+        "archive_only_fields": []
+      }
+    }
+  ],
+  "scope": "Offline finite calculations; archived native histories are inputs to channel replays. No late neutron corpus generated.",
+  "epoch_study": "Original compact record/readout replay passed; no new million-tick generation.",
+  "status": "PASS",
+  "elapsed_seconds": 27.154062994000014
+}

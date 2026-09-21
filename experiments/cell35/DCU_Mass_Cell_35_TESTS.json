@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "original_complete_steps": 131072,
+    "all_positive_service_ledger_links": 35532583,
+    "all_native_node_chains": 119089,
+    "independent_late_complete_bursts": 4587,
+    "exact_union_subset_laws": 54,
+    "independent_dense_code_probabilities": 90,
+    "selected_complete_paths": 176491,
+    "readout_records_checked": 116249,
+    "independent_raw_count_windows": 504,
+    "four_distinct_path_certificates": 168
+  },
+  "seconds": 54.13221531699992,
+  "all_checks_passed": true
+}

@@ -1,0 +1,9 @@
+PASS: two executions produce identical non-callable results; Cell 20 unchanged internally.
+PASS: 12 independent adaptive scalar integral checks; largest bin discrepancy 1.209e-11 events.
+PASS: 9 matter averages independently checked with matrix exponentials; max absolute probability error 1.271e-14.
+PASS: changed frozen splitting rejected before any comparison; restored immediately.
+Calculated raw selected source survival fraction: 0.593019886729.
+Largest source/primary-fit bin difference: 0.283006553 events.
+Total variation of conditional source/fit candidate shapes: 0.003114138.
+No global optimization, nuisance profiling, p-values, or empirical precision theorem performed.
+Development corrections: fixed an event-transcription extra duplicate 5.09 caught by the 258-count check; corrected generator newline quoting before any scientific output. No physical parameter changed.

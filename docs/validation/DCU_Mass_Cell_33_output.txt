@@ -1,0 +1,36 @@
+CELL 33 — FIXED MIDPOINT ECHO AND TWO-WINDOW NATIVE TIMING
+512 existing histories x 6 arms; ALL reused. No new stochastic histories or native update rule.
+J=(0 2) on each factor at 512 and 1024; ideal added controls, not costed native gates.
+Local effective counts: early-late. No individual-history correction or fitted pulse time.
+Same source, filtered preparation, phase increments 1/27 and 1/81, and Bell settings as Cell32.
+
+AT 1024, 1/27, DIRECT SOURCE:
+ environment / arm           fidelity free/echo   negativity free/echo      Bell free/echo
+ no_relief   /existing_pair   0.100638/0.550260    0.439443/0.394826   -0.743937/+0.784958
+ no_relief   /recorded_pair   0.083722/0.628918    0.493246/0.455146   -0.820842/+1.113608
+ no_relief   /first_use_pair  0.096407/0.645962    0.477603/0.495090   -0.826192/+1.129475
+ relief_H6   /existing_pair   0.097689/0.672972    0.564899/0.609250   -0.850216/+1.341728
+ relief_H6   /recorded_pair   0.106595/0.672854    0.583520/0.583980   -0.815555/+1.326220
+ relief_H6   /first_use_pair  0.106350/0.706183    0.590002/0.619059   -0.842392/+1.475126
+
+TWO EQUAL ITERATION WINDOWS: counts, covariance, exact-next-step memory
+ no_relief   /existing_pair   means=8.091797, 6.099609; Cov=-0.772371 +/- 0.446031; exact Cov(J1,J2)=-4.98981374e-07
+ no_relief   /recorded_pair   means=6.382812, 5.701172; Cov=-0.803189 +/- 0.379199; exact Cov(J1,J2)=-1.98614503e-07
+ no_relief   /first_use_pair  means=5.134766, 6.267578; Cov=+0.494202 +/- 0.359541; exact Cov(J1,J2)=-5.0568587e-08
+ relief_H6   /existing_pair   means=6.089844, 4.039062; Cov=+0.329165 +/- 0.253054; exact Cov(J1,J2)=-1.03107728e-05
+ relief_H6   /recorded_pair   means=5.824219, 4.050781; Cov=+0.050040 +/- 0.249183; exact Cov(J1,J2)=-1.50767167e-06
+ relief_H6   /first_use_pair  means=5.521484, 4.109375; Cov=+0.109192 +/- 0.234047; exact Cov(J1,J2)=-2.26891573e-07
+
+FILTERED PREPARATION, 1/27: fraction of initial negativity, free / echo
+ no_relief   /existing_pair   0.602148 / 0.574275; echo-vs-independent trace distance=0.009438
+ no_relief   /recorded_pair   0.643734 / 0.628047; echo-vs-independent trace distance=0.011848
+ no_relief   /first_use_pair  0.639273 / 0.663298; echo-vs-independent trace distance=0.006867
+ relief_H6   /existing_pair   0.701037 / 0.723141; echo-vs-independent trace distance=0.006236
+ relief_H6   /recorded_pair   0.728478 / 0.725003; echo-vs-independent trace distance=0.003532
+ relief_H6   /first_use_pair  0.719658 / 0.734942; echo-vs-independent trace distance=0.006585
+
+Exact finite memory counterexample: identical two free channels, echo negativity 1 vs 0; trace distance 2/3.
+All final populations unchanged. This diagonal phase channel supplies no diagonal energy shift.
+Echo improves state alignment without necessarily restoring entanglement; no spatial time dilation inferred.
+PASS: {'density_matrices': 72, 'outcome_probabilities': 2592, 'Cell32_terminal_regressions': 36, 'explicit_two_qutrit_echo_states': 12288, 'exact_native_service_subsets': 20833}
+Max numerical errors: {'echo_gate_identity': 2.7577367830154345e-15, 'tensor_echo_density': 6.455782214150333e-16}

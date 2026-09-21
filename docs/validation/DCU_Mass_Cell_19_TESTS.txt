@@ -1,0 +1,9 @@
+Actual Cells 01,14,17,18 replayed from mounted original scripts and archive.
+Cell 19 execution: 0.006383 seconds (excludes replay).
+Two Cell 19 executions have identical printed output and all non-callable fields.
+Independent 80-digit mpmath evaluation, three pion recipes: max relative output error 5.071e-17.
+Perturbing screened muon by 0.001 raises ValueError; original state restored.
+Exact Fraction ladder identities pass; reactor sin is squared exactly once.
+Old pion tree ratios exactly replay; alpha=0 reverts to tree; first-order term doubles with alpha.
+All original state dictionaries remain unchanged.
+Tests validate implementation, not physical derivation or statistical independence.

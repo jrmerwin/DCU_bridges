@@ -1,0 +1,5 @@
+# Environment used for the supplied release replay: Python 3.13.5, Linux.
+# These are recorded tested versions, not a claim that they are the latest.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

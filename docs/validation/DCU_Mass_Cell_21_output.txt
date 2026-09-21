@@ -1,0 +1,46 @@
+CELL 21 — KAMLAND 2005 DETECTOR-FOLDED TRANSFER, NO SOURCE FIT
+Data: 258 actual prompt energies; 16 nonzero 25-km fission-flux bins; 3 background templates.
+14 fixed bins, 2.6--8.5 MeV. Efficiency .898; 4.61e31 target protons.
+Primary: uniform unresolved positions within each published baseline bin, vacuum, 7%/sqrt(E).
+External isotope spectra and IBD law; backgrounds normalized to 4.8, 2.69, 10.3 events.
+No-oscillation raw signal=363.234137; release detailed expectation=365.2 +/- 23.7.
+Fission-table/prose-total differences (%), retained: [-1.06372791 -1.06341408 -1.02396844 -1.00038252]
+
+ model                       signal   signal+BG  observed     D_Poisson   D_shape
+ source                       215.405     233.195       258      19.17383   16.62421
+ IC24_with_SK_NO              214.702     232.492       258      19.51219   16.81064
+ IC19_without_SK_NO           215.027     232.817       258      19.46148   16.83065
+ no_oscillation               363.234     381.024       258      75.81426   30.95600
+Deviances are fixed-nuisance diagnostics, NOT official chi2/p-values or independent tests.
+
+Observed bin counts: [31, 37, 37, 28, 40, 37, 15, 15, 11, 3, 2, 0, 2, 0]
+Source expected bins: [34.0594, 32.7041, 36.537, 34.4955, 29.5652, 22.7909, 14.8432, 11.4545, 10.0418, 3.4698, 1.6305, 0.8157, 0.4642, 0.3235]
+
+Source sensitivity cases (all also evaluated for controls; none selected as a fit):
+  bin_midpoints                 : N=233.409747; D=18.899453
+  bin_lower_endpoints           : N=237.247652; D=24.811086
+  bin_upper_endpoints           : N=228.263739; D=19.241565
+  energy_scale_minus2percent    : N=229.358202; D=22.729731
+  energy_scale_plus2percent     : N=236.924584; D=17.213608
+  resolution_6p2                : N=233.208378; D=19.175379
+  resolution_7p3                : N=233.189196; D=19.173792
+  constant_rock_2p7             : N=234.310476; D=18.780699
+  first_order_mean_recoil       : N=232.593067; D=19.840836
+  release_noosc_normalization: N=234.360863; D=18.939666; scale=1.005412110
+
+Replacing ONLY fast 31/32 interference by its phase average:
+  Source max bin change: 4.50870710224649e-05 events
+  Largest corresponding change in midpoint/lower/upper baseline checks: 0.001587912257188684 events
+  Adjacent-R diagnostics, largest bin change (uniform / midpoint):
+    R= 32 0.00012713745445935842 0.0010705165318904974
+    R= 34 9.46260717047398e-05 0.0009387024597391491
+  This reconstructed spectrum does not test the exact R=33 revival.
+Validation: max half-step bin change 5.684341886080802e-14 events;
+  background 0.05-to-0.10-MeV thinning max component/bin change 0.03705096668199115 events;
+  E_nu upper-limit 12-to-14-MeV change 2.842170943040401e-14 events.
+PASS: prior waveform checks, analytic/numerical baseline integrals, counts/flux orientation,
+      integration refinement, background totals, deviance decomposition, and unchanged Cell 20.
+Limitations: coarse baseline bins, mean prompt mapping, one Gaussian resolution, fixed background
+and flux nuisances; no official detector response matrix or collaboration likelihood reproduced.
+Historical dataset overlaps global fits; no blind validation or native propagation derivation claimed.
+Elapsed seconds: 1.4264511459999767

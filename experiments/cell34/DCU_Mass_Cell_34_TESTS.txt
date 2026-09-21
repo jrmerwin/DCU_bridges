@@ -1,0 +1,20 @@
+PASS: Cell34 independent validation
+  complete_legal_maintenance_subsets: 6477
+  actual_native_singleton_events: 50
+  backwards_paths: 116
+  all_draw_character_classifications: 3826
+  matrix_exponential_generators: 132
+  independent_native_transitions: 16384
+  archived_count_checkpoints: 128
+  70_digit_decoded_probabilities: 972
+  orthogonal_coherence_word_pairs: 3
+  dense_protected_subspace: 0.000e+00
+  high_precision_probability: 9.992e-16
+Exact integer classes checked over every legal maintenance subset, not numerical rank cutoffs.
+Both source and independent constructors reproduce all designated full native transitions.
+This verifies the specified attached instrument; it is not evidence for a physical particle or costed memory.
+Validation elapsed: 1.404 s; Linux only.
+
+PASS: released ZIP extracted under a different directory containing spaces.
+PASS: every manifest hash verified; standalone replay reproduced every serialized field.
+PASS: the independent validator also passed from that extracted directory.

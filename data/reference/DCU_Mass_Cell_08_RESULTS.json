@@ -1,0 +1,627 @@
+{
+  "protocol": "equal-edge metric premise versus explicit unequal-length 3D control",
+  "S_graph": {
+    "roots": 81,
+    "edges": 1944,
+    "degrees": {
+      "44": 72,
+      "80": 9
+    }
+  },
+  "catalogue": [
+    {
+      "name": "K3-1",
+      "archive_motif_id": 271,
+      "core": [
+        5,
+        9,
+        11
+      ],
+      "family_order": 3
+    },
+    {
+      "name": "K3-2",
+      "archive_motif_id": 275,
+      "core": [
+        7,
+        9,
+        11
+      ],
+      "family_order": 3
+    },
+    {
+      "name": "K4-1",
+      "archive_motif_id": 160,
+      "core": [
+        2,
+        3,
+        4,
+        11
+      ],
+      "family_order": 4
+    },
+    {
+      "name": "K4-2",
+      "archive_motif_id": 544,
+      "core": [
+        2,
+        3,
+        5,
+        9
+      ],
+      "family_order": 4
+    },
+    {
+      "name": "K5-1",
+      "archive_motif_id": 1224,
+      "core": [
+        2,
+        3,
+        4,
+        9,
+        11
+      ],
+      "family_order": 5
+    },
+    {
+      "name": "K5-2",
+      "archive_motif_id": 1645,
+      "core": [
+        2,
+        3,
+        4,
+        10,
+        11
+      ],
+      "family_order": 5
+    },
+    {
+      "name": "K5-3",
+      "archive_motif_id": 1905,
+      "core": [
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "family_order": 5
+    }
+  ],
+  "families": {
+    "3": {
+      "equal_length": {
+        "gram": [
+          [
+            {
+              "numerator": 1,
+              "denominator": 3
+            },
+            {
+              "numerator": -1,
+              "denominator": 6
+            },
+            {
+              "numerator": -1,
+              "denominator": 6
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 6
+            },
+            {
+              "numerator": 1,
+              "denominator": 3
+            },
+            {
+              "numerator": -1,
+              "denominator": 6
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 6
+            },
+            {
+              "numerator": -1,
+              "denominator": 6
+            },
+            {
+              "numerator": 1,
+              "denominator": 3
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 2,
+        "minimum_dimension": 2,
+        "fits_R3": true,
+        "cayley_menger_determinant": {
+          "numerator": -3,
+          "denominator": 1
+        }
+      },
+      "unequal_3D_control": {
+        "gram": [
+          [
+            {
+              "numerator": 115,
+              "denominator": 9
+            },
+            {
+              "numerator": 64,
+              "denominator": 9
+            },
+            {
+              "numerator": -179,
+              "denominator": 9
+            }
+          ],
+          [
+            {
+              "numerator": 64,
+              "denominator": 9
+            },
+            {
+              "numerator": 40,
+              "denominator": 9
+            },
+            {
+              "numerator": -104,
+              "denominator": 9
+            }
+          ],
+          [
+            {
+              "numerator": -179,
+              "denominator": 9
+            },
+            {
+              "numerator": -104,
+              "denominator": 9
+            },
+            {
+              "numerator": 283,
+              "denominator": 9
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 2,
+        "minimum_dimension": 2,
+        "fits_R3": true,
+        "cayley_menger_determinant": {
+          "numerator": -224,
+          "denominator": 1
+        }
+      },
+      "independent_constraints": 3,
+      "self_stress_dimension": 0
+    },
+    "4": {
+      "equal_length": {
+        "gram": [
+          [
+            {
+              "numerator": 3,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": 3,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": 3,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": -1,
+              "denominator": 8
+            },
+            {
+              "numerator": 3,
+              "denominator": 8
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 3,
+        "minimum_dimension": 3,
+        "fits_R3": true,
+        "cayley_menger_determinant": {
+          "numerator": 4,
+          "denominator": 1
+        }
+      },
+      "unequal_3D_control": {
+        "gram": [
+          [
+            {
+              "numerator": 191,
+              "denominator": 2
+            },
+            {
+              "numerator": 163,
+              "denominator": 2
+            },
+            {
+              "numerator": 13,
+              "denominator": 2
+            },
+            {
+              "numerator": -367,
+              "denominator": 2
+            }
+          ],
+          [
+            {
+              "numerator": 163,
+              "denominator": 2
+            },
+            {
+              "numerator": 141,
+              "denominator": 2
+            },
+            {
+              "numerator": 13,
+              "denominator": 2
+            },
+            {
+              "numerator": -317,
+              "denominator": 2
+            }
+          ],
+          [
+            {
+              "numerator": 13,
+              "denominator": 2
+            },
+            {
+              "numerator": 13,
+              "denominator": 2
+            },
+            {
+              "numerator": 3,
+              "denominator": 2
+            },
+            {
+              "numerator": -29,
+              "denominator": 2
+            }
+          ],
+          [
+            {
+              "numerator": -367,
+              "denominator": 2
+            },
+            {
+              "numerator": -317,
+              "denominator": 2
+            },
+            {
+              "numerator": -29,
+              "denominator": 2
+            },
+            {
+              "numerator": 713,
+              "denominator": 2
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 3,
+        "minimum_dimension": 3,
+        "fits_R3": true,
+        "cayley_menger_determinant": {
+          "numerator": 1152,
+          "denominator": 1
+        }
+      },
+      "independent_constraints": 6,
+      "self_stress_dimension": 0
+    },
+    "5": {
+      "equal_length": {
+        "gram": [
+          [
+            {
+              "numerator": 2,
+              "denominator": 5
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": 2,
+              "denominator": 5
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": 2,
+              "denominator": 5
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": 2,
+              "denominator": 5
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            }
+          ],
+          [
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": -1,
+              "denominator": 10
+            },
+            {
+              "numerator": 2,
+              "denominator": 5
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 4,
+        "minimum_dimension": 4,
+        "fits_R3": false,
+        "cayley_menger_determinant": {
+          "numerator": -5,
+          "denominator": 1
+        }
+      },
+      "unequal_3D_control": {
+        "gram": [
+          [
+            {
+              "numerator": 440,
+              "denominator": 1
+            },
+            {
+              "numerator": 412,
+              "denominator": 1
+            },
+            {
+              "numerator": 252,
+              "denominator": 1
+            },
+            {
+              "numerator": -160,
+              "denominator": 1
+            },
+            {
+              "numerator": -944,
+              "denominator": 1
+            }
+          ],
+          [
+            {
+              "numerator": 412,
+              "denominator": 1
+            },
+            {
+              "numerator": 387,
+              "denominator": 1
+            },
+            {
+              "numerator": 238,
+              "denominator": 1
+            },
+            {
+              "numerator": -149,
+              "denominator": 1
+            },
+            {
+              "numerator": -888,
+              "denominator": 1
+            }
+          ],
+          [
+            {
+              "numerator": 252,
+              "denominator": 1
+            },
+            {
+              "numerator": 238,
+              "denominator": 1
+            },
+            {
+              "numerator": 148,
+              "denominator": 1
+            },
+            {
+              "numerator": -90,
+              "denominator": 1
+            },
+            {
+              "numerator": -548,
+              "denominator": 1
+            }
+          ],
+          [
+            {
+              "numerator": -160,
+              "denominator": 1
+            },
+            {
+              "numerator": -149,
+              "denominator": 1
+            },
+            {
+              "numerator": -90,
+              "denominator": 1
+            },
+            {
+              "numerator": 59,
+              "denominator": 1
+            },
+            {
+              "numerator": 340,
+              "denominator": 1
+            }
+          ],
+          [
+            {
+              "numerator": -944,
+              "denominator": 1
+            },
+            {
+              "numerator": -888,
+              "denominator": 1
+            },
+            {
+              "numerator": -548,
+              "denominator": 1
+            },
+            {
+              "numerator": 340,
+              "denominator": 1
+            },
+            {
+              "numerator": 2040,
+              "denominator": 1
+            }
+          ]
+        ],
+        "positive_semidefinite": true,
+        "rank": 3,
+        "minimum_dimension": 3,
+        "fits_R3": true,
+        "cayley_menger_determinant": {
+          "numerator": 0,
+          "denominator": 1
+        }
+      },
+      "independent_constraints": 9,
+      "self_stress_dimension": 1
+    }
+  },
+  "native_metric_identified": false,
+  "physical_mass_calibration": null
+}

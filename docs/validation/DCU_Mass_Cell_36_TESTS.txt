@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checks": {
+    "full_native_next_transitions": 1160,
+    "full_source_cards": 148,
+    "backward_paths": 672,
+    "late_native_contact_costs": 1,
+    "high_precision_probabilities": 13068,
+    "weighted_quantum_contexts": 8,
+    "matrix_unit_measurement_tests": 81
+  },
+  "max_errors": {
+    "mp_single_hit": 1.3322676295501878e-15,
+    "mp_all_residues": 1.5543122344752192e-15,
+    "mp_native_weighted": 1.3322676295501878e-15,
+    "mp_activity_conditioned": 1.2212453270876722e-15,
+    "coarse_effect_all_matrix_units": 3.433175098891678e-16
+  },
+  "wall_seconds": 1.020321469999999,
+  "new_native_histories": 0,
+  "new_physical_interaction_derived": false,
+  "independent_methods": [
+    "Original DCUStructure and original Cell25 step with explicit service draws",
+    "Complete source-node tables and backwards path/ancestry traversal",
+    "70-digit direct basis-amplitude summation independent of the 27D matrix circuit",
+    "Exact finite-group spectral projectors on every memory matrix unit"
+  ]
+}

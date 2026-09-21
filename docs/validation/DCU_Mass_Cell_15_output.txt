@@ -1,0 +1,39 @@
+CELL 15 — FIXED GLOBAL FORMULA BRANCH; DATED EXTERNAL COMPARISONS
+N=137; no replacement formula, screening correction, or fitted theory error.
+Primary: CODATA 2022, DESI DR2 BAO+Ly-alpha FS (2026), JUNO first 59.1 days.
+
+ quantity            prediction         observed       quoted error    relative gap     standardized
+ muon_electron                205.5     206.7682827        4.6e-06    -0.613384%  -275713.630435
+ matter_fraction       0.2941176471          0.3012         0.0079    -2.351379%       -0.896500
+ solar_eV2          7.530538062e-05         7.5e-05        1.2e-06    +0.407174%       +0.254484
+Standardized residuals are summary diagnostics, NOT extreme-tail significances.
+No theoretical truncation error was provided; bare-to-measured corrections remain unspecified.
+
+Matter-fraction sensitivities (overlapping data; flat LCDM, not combined):
+  2025 DR2 BAO only: 0.2975 +/- 0.0086; standardized residual=-0.393
+  2026 Ly-alpha FS only: 0.3250 +/- 0.0180; standardized residual=-1.716
+  2026 DR2 BAO+Ly-alpha FS+CMB: 0.3042 +/- 0.0033; standardized residual=-3.055
+
+N-eliminated check using observed muon ratio (not a refit):
+  matter_from_muon: 0.292300394444; external standardized residual=-1.126532
+  solar_from_muon: 7.21113828883e-05; external standardized residual=-2.407181
+
+Effective N diagnostics; quoted +/-1-error endpoint transforms only:
+  muon   : 137.845521800; [137.845518733, 137.845524867]
+  matter : 133.802124834; [130.407958589, 137.379133992]
+  solar  : 137.079052857; [136.770505148, 137.393294871]
+These are not allowed changes to the enumerated registry size.
+
+Conditional neutrinos; the splitting match is NOT an absolute-mass measurement:
+  masses (meV): (0.0, 8.67786729, 50.60022669)
+  sum=59.27809398 meV; Delta32=0.002485077561; Delta31=0.002560382941 eV^2
+  LCDM + free sum; DESI+CMB: quoted 95% upper=0.0592 eV; sum minus limit=+0.00007809 eV
+  w0waCDM + free sum; DESI+CMB: quoted 95% upper=0.1660 eV; sum minus limit=-0.10672191 eV
+Credible upper limits are model/prior dependent, not sharp physical cutoffs.
+
+PASS: old inputs unchanged; exact formula identities; units and splitting conventions checked.
+FINDING: 205.5 is not the measured muon ratio. The uncorrected exact joint branch fails.
+The solar prescription and DESI-only matter prescription are compatible with these summaries.
+No joint p-value, independent-confirmation count, or automatic correction was generated.
+
+Execution seconds: 0.002656

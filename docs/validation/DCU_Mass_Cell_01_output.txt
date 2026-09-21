@@ -1,0 +1,27 @@
+Matched candidates (cache IDs are labels, not physical identities):
+  K3-1: archive 271, core=[5, 9, 11], S/I/G=[0, 1, 0]
+  K3-2: archive 275, core=[7, 9, 11], S/I/G=[0, 1, 0]
+  K4-1: archive 160, core=[2, 3, 4, 11], S/I/G=[1, 2, 0]
+  K4-2: archive 544, core=[2, 3, 5, 9], S/I/G=[0, 1, 0]
+
+X = exact mean extra work over 9 ports; one comparison per fresh-state arm.
+Fixed reporting unit: K4-1/A = 90; NOT a physical mass calibration.
+ case   probe       X exact    X/fixed unit    registry part    overlap
+ K3-1     A         734/9        0.906173            176/9          5
+ K3-2     A         770/9        0.950617            176/9          4
+ K4-1     A            90        1.000000            506/9          4
+ K4-2     A         256/3        0.948148            176/9          5
+ K3-1     B         794/9        0.980247            176/9          4
+ K3-2     B         794/9        0.980247            176/9          4
+ K4-1     B            90        1.000000            506/9          4
+ K4-2     B         880/9        1.086420            176/9          3
+
+Probe-context change (B/A - 1), with no refitting:
+  K3-1: +8.174%
+  K3-2: +3.117%
+  K4-1: +0.000%
+  K4-2: +14.583%
+
+PASS: native cost examples, legal pairs, complete supports, recorded masks,
+      equal probe anatomy, exact baseline subtraction, and read-only measurements.
+This is a conditional recording response, not yet mass or inertia.

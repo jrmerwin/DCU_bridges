@@ -1,0 +1,158 @@
+{
+  "0": {
+    "128": {
+      "global8192": {
+        "mean": 0.3105024194204946,
+        "conditional_MC_SE": 0.029529158761447714,
+        "world_mean_SE": 0.06317494076170323,
+        "per_world_means": [
+          0.19675188746635408,
+          0.27343657031460755,
+          0.49128381953227185,
+          0.2805374003687451
+        ],
+        "mean_activity": 329.2421875,
+        "mean_elapsed_tau": 8192.0234375,
+        "mean_elapsed_steps": 149698.1171875,
+        "mean_D_squared": 183.421875,
+        "completed": 128,
+        "total": 128
+      },
+      "local32": {
+        "mean": 0.6682397397734507,
+        "conditional_MC_SE": 0.02656916726682831,
+        "world_mean_SE": 0.03738391257942154,
+        "per_world_means": [
+          0.7795656971431864,
+          0.6438449516246485,
+          0.6234335447092015,
+          0.6261147656167667
+        ],
+        "mean_activity": 32.0,
+        "mean_elapsed_tau": 183.375,
+        "mean_elapsed_steps": 1262.734375,
+        "mean_D_squared": 15.21875,
+        "completed": 128,
+        "total": 128
+      }
+    },
+    "4194304": {
+      "global8192": {
+        "mean": 0.958637975053278,
+        "conditional_MC_SE": 0.0049825998275492564,
+        "world_mean_SE": 0.00806703064888735,
+        "per_world_means": [
+          0.9594432188373827,
+          0.9358429697034535,
+          0.9727059901133932,
+          0.9665597215588826
+        ],
+        "mean_activity": 2.7734375,
+        "mean_elapsed_tau": 8192.0078125,
+        "mean_elapsed_steps": 1538930.796875,
+        "mean_D_squared": 1.203125,
+        "completed": 128,
+        "total": 128
+      },
+      "local32": {
+        "mean": 0.642137918046636,
+        "conditional_MC_SE": 0.028366263467432977,
+        "world_mean_SE": 0.017318138135034807,
+        "per_world_means": [
+          0.6562984092064542,
+          0.6478541971979426,
+          0.5923982983289009,
+          0.6720007674532467
+        ],
+        "mean_activity": 32.0,
+        "mean_elapsed_tau": 95238.4609375,
+        "mean_elapsed_steps": 18092868.125,
+        "mean_D_squared": 15.9140625,
+        "completed": 128,
+        "total": 128
+      }
+    },
+    "late_minus_early_local32": {
+      "mean": -0.026101821726814668,
+      "conditional_paired_MC_SE": 0.03811979428957799
+    }
+  },
+  "6": {
+    "128": {
+      "global8192": {
+        "mean": 0.3429474948970796,
+        "conditional_MC_SE": 0.030997948470449514,
+        "world_mean_SE": 0.030712403295431095,
+        "per_world_means": [
+          0.3752250411899628,
+          0.28605480727910537,
+          0.2972143466466854,
+          0.4132957844725649
+        ],
+        "mean_activity": 215.46875,
+        "mean_elapsed_tau": 8192.015625,
+        "mean_elapsed_steps": 104055.0859375,
+        "mean_D_squared": 105.796875,
+        "completed": 128,
+        "total": 128
+      },
+      "local32": {
+        "mean": 0.6819190965022798,
+        "conditional_MC_SE": 0.02719345409328333,
+        "world_mean_SE": 0.025177573136785918,
+        "per_world_means": [
+          0.7477914828761534,
+          0.671701139387785,
+          0.6825052289688259,
+          0.6256785347763549
+        ],
+        "mean_activity": 32.0,
+        "mean_elapsed_tau": 313.5546875,
+        "mean_elapsed_steps": 1705.2109375,
+        "mean_D_squared": 13.671875,
+        "completed": 128,
+        "total": 128
+      }
+    },
+    "4194304": {
+      "global8192": {
+        "mean": 0.9680372177395018,
+        "conditional_MC_SE": 0.004933082630473545,
+        "world_mean_SE": 0.010603817255364195,
+        "per_world_means": [
+          0.9769808243331877,
+          0.9369315637386495,
+          0.9738190291308719,
+          0.9844174537552977
+        ],
+        "mean_activity": 2.0078125,
+        "mean_elapsed_tau": 8192.0,
+        "mean_elapsed_steps": 1147356.3828125,
+        "mean_D_squared": 0.9375,
+        "completed": 128,
+        "total": 128
+      },
+      "local32": {
+        "mean": 0.6530183821883907,
+        "conditional_MC_SE": 0.027298441601855676,
+        "world_mean_SE": 0.04253459307394418,
+        "per_world_means": [
+          0.6822899729122346,
+          0.6396029963480434,
+          0.7464505063599174,
+          0.5437300531333674
+        ],
+        "mean_activity": 32.0,
+        "mean_elapsed_tau": 137324.0078125,
+        "mean_elapsed_steps": 18231867.9140625,
+        "mean_D_squared": 16.265625,
+        "completed": 128,
+        "total": 128
+      }
+    },
+    "late_minus_early_local32": {
+      "mean": -0.02890071431388913,
+      "conditional_paired_MC_SE": 0.04076105271712025
+    }
+  }
+}

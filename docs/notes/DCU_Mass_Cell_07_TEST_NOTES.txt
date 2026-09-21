@@ -1,0 +1,12 @@
+CELL 7 TEST NOTES
+- Executed the user cell using the unchanged native constructor and saved Cell 5 candidate catalogue.
+- Recovered the complete internal clique inventory in all seven chosen minimal supports.
+- 1,200 actual committed repeat-use contacts over 2 readout branches, 2 request schedules, and 2 cycles.
+- Every native event matched its exact ancestry-sum prediction.
+- Every within-group sequential raw charge matched the corresponding native batch quote.
+- Candidate parentage and probe overlap remained fixed.
+- Reversing clique-group order and within-group contact order left all aggregate results unchanged.
+- Rerunning the unmodified cell returned identical results.
+- The archived motif panel's serialized SHA-256 digest was unchanged before and after testing.
+- New test only: this does not rerun the historical full census or establish autonomous verification,
+  energy, service time, inertia, or physical mass.

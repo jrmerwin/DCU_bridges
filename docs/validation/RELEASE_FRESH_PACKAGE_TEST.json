@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "method": "A candidate repository ZIP and the separate small LaTeX ZIP were CRC-checked and extracted into new directories. Original publication inputs were not modified.",
+  "compact_replay": {
+    "status": "PASS",
+    "elapsed_seconds": 27.154062994000014,
+    "cells": [
+      14,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      32,
+      33,
+      34,
+      36,
+      37,
+      38,
+      39
+    ],
+    "epoch_study": "Original compact record/readout replay passed; no new million-tick generation."
+  },
+  "unittest_methods": 7,
+  "regenerated_figure_files_byte_identical": {
+    "registry_information.pdf": true,
+    "record_information.png": true,
+    "registry_information.png": true,
+    "record_information.pdf": true,
+    "epoch_activity.pdf": true,
+    "SOURCE_MAP.json": true,
+    "horizontal_residuals.png": true,
+    "epoch_activity.png": true,
+    "inverse_activity.png": true,
+    "neutrino_profile.svg": true,
+    "work_information.pdf": true,
+    "inverse_activity.svg": true,
+    "horizontal_residuals.svg": true,
+    "work_information.svg": true,
+    "neutrino_profile.pdf": true,
+    "work_information.png": true,
+    "epoch_activity.svg": true,
+    "registry_information.svg": true,
+    "neutrino_profile.png": true,
+    "horizontal_residuals.pdf": true,
+    "inverse_activity.pdf": true,
+    "record_information.svg": true
+  },
+  "small_latex_source_rebuild": {
+    "status": "PASS",
+    "pages": 17,
+    "missing_glyph_or_reference_overflow_warnings": []
+  },
+  "notebook_format_validation": "PASS: nbformat4, four cells",
+  "citation_metadata": "YAML parsing passed; no DOI, repository URL or publishing license fabricated.",
+  "scientific_scope": "Reproduction of existing calculations and figures. No new experiment, no 11 GB late-neutron-corpus replay, no new empirical validation.",
+  "archive_note": "This report is added after candidate extraction testing; the final archive is rebuilt with this report and rechecked for CRC and distributed-file hashes. Scientific source, results, plotting scripts and manuscript are unchanged."
+}

@@ -1,0 +1,8 @@
+PASS: 6 original conditioned events; 24,576 complete native transitions via independent bitmask/sequential-charge code; 144 stored rows.
+PASS: filtered-source transfer, 3,024 probabilities, 84 density/PT states independently evaluated at 75 digits; max errors 3.053e-16, 5.551e-16, 2.898e-16.
+PASS: 3,024 joint probabilities and 84 Bell/negativity values from 75-digit independent complex-amplitude sums; max errors 1.388e-16, 4.441e-16, 2.220e-16.
+PASS: 16 independent matrix-exponential checks; joint-count necessity outside the diagonal source sector.
+PASS: altered clock metadata rejected; primary reconstruction left input untouched.
+Scope: all history-level quantum results are retrospective model predictions; no quantum outcomes were experimentally observed or newly sampled.
+Validation elapsed: 4.675 seconds in this Linux container.
+PASS: fresh-process replay from a different folder containing spaces reproduced every serialized field.

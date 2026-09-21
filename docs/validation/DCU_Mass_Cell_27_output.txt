@@ -1,0 +1,39 @@
+CELL 27 — CONSTRAINED PARTNERS; NO PROTON OR NEUTRON IDENTIFICATION
+Unchanged registry T=-A D^-1; response steps are NOT maintenance ticks.
+Exact block sizes: {'U': 11, 'A': 63, 'B': 63}
+Sector pair    same-lobe zero-external pairs
+  GG           56
+  GI          304
+  GS          576
+  II          342
+  IS         1368
+  SS         1260
+Total: 3906/7875 peripheral pairs. Universal-block twins add 55 more.
+
+ power k    peripheral zero-external    total zero-external    junction response from peripheral dipoles
+       1                        3906                   3961                  exact zero
+       2                        3906                   3961                  exact zero
+       4                        3906                   3961                  exact zero
+       8                        3906                   3961                  exact zero
+Same-lobe T^k(e_i-e_j)=73^-k(e_i-e_j), no exceptions in any sector.
+Opposite-lobe differences use eigenvalues 1/73 and -62/73; no small new eigenvalue appears.
+No graph, degree, sector label, response weight or coupling changed.
+
+ONE-PORT PRIMITIVE-EXCHANGE SEARCH (A/B are ancestry branches, NOT quark flavors)
+1753 saved round-12 K3s; 109 AAB -> ABB one-port correspondences;
+  82 match complete support size and required grade; 41 coexist in at least one actual saved host.
+  12 of the co-host pairs are full primitive mirrors.
+All 41 co-host pairs: 16 positive / 0 zero / 16 negative deltas over the same 32 probes.
+Their context-averaged difference is EXACTLY zero in all cases; average is diagnostic only.
+Matched pairs without a common saved host, context means: {Fraction(-7, 5): 1, Fraction(0, 1): 39, Fraction(7, 5): 1}
+
+First co-host pair by grade, support size and canonical parentage (not by response):
+  archive 91 core (3, 4, 9) -> 17 core (3, 4, 10)
+  only port 9 -> 10; D=9, grade=4
+  left: Q_A=148/7, Q_B=164/7, core terms=('((a|b)|a)', '((a|b)|b)', '(((a|b)|a)|(a|b))')
+  right: Q_A=164/7, Q_B=148/7, core terms=('((a|b)|a)', '((a|b)|b)', '(((a|b)|b)|(a|b))')
+  deltas A/B=16/7/-16/7.
+PASS: 37,264 exact pair-power checks; 4,290 native probe fixtures; 118,806 committed support contacts.
+PASS: complete witnesses, real common-host containment, legal fresh pairs, repeat-work identity, mirror controls.
+Primitive exchange is a structural correspondence, NOT a realized beta transition.
+Native Q remains conditional recording work; no physical charge, mass, binding, or mature epoch supplied.

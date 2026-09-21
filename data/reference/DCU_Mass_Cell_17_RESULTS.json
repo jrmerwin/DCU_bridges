@@ -1,0 +1,153 @@
+{
+  "protocol": "frozen structural/screened masses + universal LO weak law",
+  "primary_recipe": "screened_primary",
+  "recipes": {
+    "structural_control": {
+      "mu": {
+        "numerator": 411,
+        "denominator": 2,
+        "decimal": 205.5
+      },
+      "tau": {
+        "numerator": 6987,
+        "denominator": 2,
+        "decimal": 3493.5
+      }
+    },
+    "screened_primary": {
+      "mu": {
+        "numerator": 827,
+        "denominator": 4,
+        "decimal": 206.75
+      },
+      "tau": {
+        "numerator": 13909,
+        "denominator": 4,
+        "decimal": 3477.25
+      }
+    }
+  },
+  "predictions": {
+    "structural_control": {
+      "mass_ratio_tau_mu": 17.0,
+      "rate_s_inverse": {
+        "electron": 646398365776.7578,
+        "muon": 629031865486.0635
+      },
+      "partial_lifetime_ps": {
+        "electron": 1.5470336141681447,
+        "muon": 1.5897445819017184
+      },
+      "muon_over_electron_rate": 0.9731334402898351,
+      "calibrated_coefficient_s_inverse": 1.2422150782994992e-06,
+      "ratio_comparison": {
+        "observed": 0.973,
+        "sigma": 0.0022,
+        "fractional_error": 0.00013714315502055818
+      }
+    },
+    "screened_primary": {
+      "mass_ratio_tau_mu": 16.818621523579203,
+      "rate_s_inverse": {
+        "electron": 612641816633.4039,
+        "muon": 595834394891.0303
+      },
+      "partial_lifetime_ps": {
+        "electron": 1.6322751285493553,
+        "muon": 1.6783186881698662
+      },
+      "muon_over_electron_rate": 0.9725656635148838,
+      "calibrated_coefficient_s_inverse": 1.2051118173114196e-06,
+      "ratio_comparison": {
+        "observed": 0.973,
+        "sigma": 0.0022,
+        "fractional_error": -0.0004463889877863725
+      }
+    }
+  },
+  "clock_input": {
+    "value_s": 2.1969811e-06,
+    "sigma_s": 2.2e-12
+  },
+  "comparisons": [
+    {
+      "recipe": "structural_control",
+      "channel": "electron",
+      "predicted_rate": 646398365776.7578,
+      "observed_rate": 614557855937.1663,
+      "marginal_observed_sigma": 1776980930.987593,
+      "fractional_error": 0.05181043498506188,
+      "within_1_percent": false,
+      "calibration_sigma_only": 647286.5900889485
+    },
+    {
+      "recipe": "structural_control",
+      "channel": "muon",
+      "predicted_rate": 629031865486.0635,
+      "observed_rate": 598022666988.1842,
+      "marginal_observed_sigma": 1678303078.337353,
+      "fractional_error": 0.05185288152044576,
+      "within_1_percent": false,
+      "calibration_sigma_only": 629896.2262667347
+    },
+    {
+      "recipe": "screened_primary",
+      "channel": "electron",
+      "predicted_rate": 612641816633.4039,
+      "observed_rate": 614557855937.1663,
+      "marginal_observed_sigma": 1776980930.987593,
+      "fractional_error": -0.003117752519558148,
+      "within_1_percent": true,
+      "calibration_sigma_only": 613483.6556370414
+    },
+    {
+      "recipe": "screened_primary",
+      "channel": "muon",
+      "predicted_rate": 595834394891.0303,
+      "observed_rate": 598022666988.1842,
+      "marginal_observed_sigma": 1678303078.337353,
+      "fractional_error": -0.0036591791882650826,
+      "within_1_percent": true,
+      "calibration_sigma_only": 596653.1386001757
+    }
+  ],
+  "observational_rates": {
+    "electron": {
+      "rate": 614557855937.1663,
+      "sigma": 1776980930.987593
+    },
+    "muon": {
+      "rate": 598022666988.1842,
+      "sigma": 1678303078.337353
+    }
+  },
+  "comparison_inputs": {
+    "tau_tau_s": 2.9029e-13,
+    "sigma_tau_tau_s": 5.3e-16,
+    "branching_fractions": {
+      "electron": [
+        0.1784,
+        0.0004
+      ],
+      "muon": [
+        0.1736,
+        0.00037
+      ]
+    }
+  },
+  "truly_blinded": false,
+  "borrowed_weak_law": true,
+  "native_dynamics_changed": false,
+  "theory_uncertainty_assigned": false,
+  "aggregate_significance_computed": false,
+  "validation": {
+    "decimal70_max_relative_rate_error": 2.0487288673948566e-16,
+    "two_runs_identical": true,
+    "mutation_guard_passed": true,
+    "source_replay_cells": [
+      1,
+      14
+    ],
+    "execution_seconds": 0.010541567000018404
+  }
+}

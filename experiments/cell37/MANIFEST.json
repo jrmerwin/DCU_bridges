@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "path": "DCU_Mass_Cell_37.py",
+      "bytes": 82208,
+      "sha256": "de045be4460840c326c337dc341cf2d6286afc0a33819ab93c549b5210ca66b5"
+    },
+    {
+      "path": "DCU_Mass_Cell_37_NOTES.md",
+      "bytes": 18592,
+      "sha256": "6063b4aef9c863f9215083db349b280f86119d89a0cc6d00c54aff4185f722cc"
+    },
+    {
+      "path": "DCU_Mass_Cell_37_RESULTS.json.gz",
+      "bytes": 18832,
+      "sha256": "3b28bfa69740ca7e0000060737a71b19810947c36f2f9184fbfa5f9f1b18badd"
+    },
+    {
+      "path": "DCU_Mass_Cell_37_TESTS.json",
+      "bytes": 758,
+      "sha256": "cf64193ce951b09e9080aedf4fdb947f0b9f09034f9073c4fa196f5de9257f3f"
+    },
+    {
+      "path": "DCU_Mass_Cell_37_TESTS.txt",
+      "bytes": 911,
+      "sha256": "4c5cb74e6073135b2c60542533be70f4e51676e454dbaf8659c113afd586a31e"
+    },
+    {
+      "path": "DCU_Mass_Cell_37_output.txt",
+      "bytes": 3572,
+      "sha256": "93324256bbbf32fe31bfd3db45a4fce280a95a70cd28337d22f5940fec7192d3"
+    },
+    {
+      "path": "FRESH_DIRECTORY_REPLAY.txt",
+      "bytes": 221,
+      "sha256": "dffc21e328dda0f011826cb50ba2bcb622b6e357018e479b6b538f2ce1d65cf2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2444,
+      "sha256": "04e8595bf99f870b74b17227a8c70ad1782a08bc8359fe2171a557e1ce70a831"
+    },
+    {
+      "path": "SCOPE_BEFORE_RUN.md",
+      "bytes": 2812,
+      "sha256": "dc5b47960741edc4d45870285b1fb1a338f375977b7402215afa616a73cb4e38"
+    },
+    {
+      "path": "TESTED_ENVIRONMENT.json",
+      "bytes": 98,
+      "sha256": "94ad8796b3c8b11e1bdbee6f7d55536f0b32e03236e3230141f928854351bcdc"
+    },
+    {
+      "path": "reference/DCU_Mass_Cell_25.py",
+      "bytes": 18227,
+      "sha256": "ed3d8a52fbf36b895efd1f7bb6e346c8ddfd2ef78bc4e0f4f4a836d7a9fe9beb"
+    },
+    {
+      "path": "reference/H0_s20350920.nodes.tsv",
+      "bytes": 545802,
+      "sha256": "7a21fc7767854f672dc3a74c50234f9200b519f7df469c6b352ab5b5bac3a194"
+    },
+    {
+      "path": "reference/fixture36.json",
+      "bytes": 115415,
+      "sha256": "cbd23c6a50ceda73cfdaa312b0b374cc505d4d698f41a3e52e998726bcab6829"
+    },
+    {
+      "path": "reference/fixture37.json.gz",
+      "bytes": 49554,
+      "sha256": "3ea19a3bfcee98a5b8c92ed4c1b04b0388b32dc00dee963842f7d61e03c2b0a7"
+    },
+    {
+      "path": "reference/native_constructor.py",
+      "bytes": 3139,
+      "sha256": "85bf70a20dece885de6d855f0b5a67189245bcb68ad69119df15016a56c8fb57"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 1624,
+      "sha256": "dba9240072a68f531e5cdde367cc62d1d3f846c795c94e905cb9b4772ade4e4b"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 49,
+      "sha256": "b7f0d4dde22c34741e7246f02c1be4ae8f1cb6f94dfd6c77d4fb5045b1f7a3b4"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 8474,
+      "sha256": "87978d3ce6c0ff05ef6fc1651dcaf48da0717b78e4a9828850e59a214e2b9cab"
+    }
+  ],
+  "scope": "source/results/validation bundle; no completed autonomous measurement compiler"
+}

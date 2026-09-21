@@ -1,0 +1,21 @@
+Cell 20 executed validation
+
+1. Replayed the original mounted Cells 01,14,17,18,19 and original reproducibility ZIP.
+2. Two executions of final Cell20: exactly matching printed output and non-callable results.
+3. 210 independent 80-digit phase-amplitude evaluations: maximum absolute probability error 8.269e-16.
+4. 90 full unitary PMNS neutrino/antineutrino checks with arbitrary validation-only CP/theta23 settings: max error 4.441e-16.
+5. Probability conservation across all three final flavors checked for those matrices.
+6. Independent Gaussian integration errors: {'0.01': 5.878329226464733e-17, '0.03': 3.95762438133415e-17}.
+7. Input changes R=34 or solar angle+0.001 rejected explicitly; no formula changed.
+8. Negative/nonfinite L/E and zero energy rejected. Prior dictionaries retained.
+9. Final two-grid checks: {'km_scale': {'rms_change': 7.616036750909827e-11, 'max_change': 0.0}, 'multiple_cycles': {'rms_change': 1.2086101564001694e-09, 'max_change': 2.516636838922892e-07}}.
+10. Source's analytic common-period and averaged-probability identities checked.
+
+Development note: the initial 8000-interval long grid missed its max-difference
+convergence criterion by 1.50e-6 probability units. Increasing it to16000 intervals
+resolved this; no model parameter or measurement changed. All maxima are still
+reported as grid maxima, not certified continuous suprema.
+
+No experiment event spectrum, detector response, or likelihood was evaluated.
+All empirical-fit curves are comparisons, not predictions based on observations at
+those chosen (L,E) points. DayaBay summaries overlap global-fit inputs.

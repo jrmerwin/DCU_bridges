@@ -1,0 +1,32 @@
+CELL 27 — EXECUTED VALIDATION
+Final primary runtime: 6.668 seconds on this container; not a user-machine guarantee.
+
+1. Final cell executed twice in one kernel: identical output and all serialized result fields.
+2. Fresh-process replay of original Cell1 -> final Cell27: identical output and results.
+3. 37,264 exact integer pair-power checks (9,316 pairs at k=1,2,4,8).
+   Same-lobe and opposite-lobe formulas checked component by component.
+   Integer scaling is 9928^k; small decayed numbers are not rounded into zeros.
+4. 4,288 repeat-Q fixtures, with 39,584 per-port repeat charges, match the ORIGINAL
+   Cell4 measure body (unaltered AST extraction), including primitive-exchange probe extension.
+5. 39,584 per-port charges independently recomputed from cached ancestry sets and
+   the path-count recurrence, without calling the native workload routine.
+6. 392 independent NumPy dense matrix-power cross-lobe checks:
+   maximum absolute discrepancy 6.072e-17. Exact integer checks are authoritative.
+7. 164 additional A/B comparisons use full ACTUAL sampled common hosts (309..315
+   old objects), prepare both supports in the same host, then clone separate response arms.
+   Probes are extended past host grade before contacts to avoid duplicates; those extensions
+   add no candidate ancestry. All repeat-Q values equal minimal-support results exactly.
+   These are controlled readouts, not autonomous service simulations.
+8. Mirror controls use all 32 complemented words on the 19 full-mirror matched correspondences.
+9. Altering the reference sector census is rejected explicitly: The original registry is required; no replacement is selected.
+10. Complete support, actual witness parent pairs, actual per-host containment, repeat identity,
+    and preservation of original registry/panel/parentage dictionaries checked.
+
+Scope: implementation and finite exact algebra, NOT experimental validation, native quark
+identification, a proton or neutron observation, mass calibration, or an epoch estimate.
+The pair census is exploratory, not historically preregistered. No mass target chose a pair.
+
+Development: corrected two test-harness mistakes (host records contain motif dictionaries,
+and a path-count helper needed explicit definition). Final scientific runs are unaffected.
+Before the final run, probe successor orientation and port order were aligned with Cell4;
+this did not change any Q values or the scientific conclusions.

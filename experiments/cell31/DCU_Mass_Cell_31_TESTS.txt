@@ -1,0 +1,18 @@
+PASS private logs/choices/certificates: {'private_event_cards': 253186, 'private_reader_frames': 18432, 'pair_protocols': 9216, 'receipt_certificates': 1295, 'coalescences': 276, 'returned_certificates': 27, 'summary_rows': 48}
+PASS independent native transitions and observer-free final states: {'private_event_cards': 253186, 'private_reader_frames': 18432, 'pair_protocols': 9216, 'receipt_certificates': 1295, 'coalescences': 276, 'returned_certificates': 27, 'summary_rows': 48, 'independent_native_transitions': 65536, 'observer_free_replays': 16}
+PASS exact sampling, merger law, and identical-source-log identity counterexample.
+ALL CHECKS: {"coalescences": 276, "conditioned_fork_events": 3, "exact_child_laws": 75, "independent_native_transitions": 65536, "merger_laws": 18, "observer_free_replays": 16, "pair_protocols": 9216, "private_event_cards": 253186, "private_reader_frames": 18432, "receipt_certificates": 1295, "returned_certificates": 27, "summary_rows": 48}
+Validation elapsed seconds 4.163591505999989
+No statistical fluctuation was used as a pass/fail filter; no physical SI, mass, or spacetime claim is checked.
+
+PORTABLE FINAL-CELL REPLAY
+Executed reproduce.py from an independent directory whose path contains spaces.
+Entire serialized result matched, including all native histories, both receiver
+panels, three policies, fresh cohort and exact counterexample.
+Runtime: 137.5 seconds. Within-tolerance floating differences: 0; discrete data exact.
+This was Linux, not a Mac execution test.
+
+DEVELOPMENT REPLAY
+The first complete simulation and final cell gave identical cohort data. The final
+cell added an exact continuation-identity counterexample and finite merger checks;
+neither changed any seed, native history, observer outcome or response convention.

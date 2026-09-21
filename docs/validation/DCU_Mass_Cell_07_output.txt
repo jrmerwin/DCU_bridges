@@ -1,0 +1,27 @@
+CELL 7: INTERNAL CLIQUE INVENTORY AND TWO LEGAL VERIFICATION SCHEDULES
+Candidate selection unchanged. All cliques in each complete support are enumerated.
+Counts are distinct structures, NOT their appearances in sampled hosts.
+ case    K3/K4/K5 counts   unique witnesses  clique-witness visits  core cycle rank
+ K3-1          (1, 0, 0)                 3                      3                1
+ K3-2          (1, 0, 0)                 3                      3                1
+ K4-1          (4, 1, 0)                 6                     18                3
+ K4-2          (4, 1, 0)                 6                     18                3
+ K5-1         (10, 5, 1)                10                     70                6
+ K5-2         (10, 5, 1)                10                     70                6
+ K5-3         (10, 5, 1)                10                     70                6
+
+Total repeat-work per cycle (NOT per-port Q):
+ case     shared A/B       per-clique A/B     ratio shared A/B    ratio per-clique A/B
+ K3-1     196/228        196/228         1.0000/1.1633       1.0000/1.1633
+ K3-2     220/228        220/228         1.1224/1.1633       1.1224/1.1633
+ K4-1     244/244        732/732         1.2449/1.2449       3.7347/3.7347
+ K4-2     192/276        576/828         0.9796/1.4082       2.9388/4.2245
+ K5-1     464/480       3248/3360        2.3673/2.4490      16.5714/17.1429
+ K5-2     480/464       3360/3248        2.4490/2.3673      17.1429/16.5714
+ K5-3     432/432       3024/3024        2.2041/2.2041      15.4286/15.4286
+
+PASS: 1,200 committed verification contacts; two equal repeat cycles per schedule.
+Fresh legal partners, unchanged candidate parentage and probe overlap, exact native costs.
+Both schedules are PROPOSED verification protocols, not mandatory autonomous maintenance.
+Repeated clique requests are actual extra operations, not independent copies of shared objects.
+No registry multiplier, trigger threshold, service clock, or mass conversion was added.

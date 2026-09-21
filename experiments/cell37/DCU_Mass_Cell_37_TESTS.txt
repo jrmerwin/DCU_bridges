@@ -1,0 +1,25 @@
+PASS: Cell37 independent finite validation.
+{
+  "counts": {
+    "source_native_vertices": 10809,
+    "original_complete_resource_bursts": 4,
+    "order_independent_charge_checks": 8,
+    "original_complete_next_states": 1160,
+    "original_backward_paths": 4,
+    "exact_character_sums": 3,
+    "exact_code_channel_entries": 243,
+    "high_precision_target_entries": 243,
+    "high_precision_renewal_entries": 729,
+    "high_precision_code_branch_maps": 27,
+    "unknown_cost_not_zero": 5
+  },
+  "max_numerical_differences": {
+    "high_precision_same_effects": 5.551115123125783e-17,
+    "high_precision_code_maps": 2.7755575615628914e-17,
+    "outside_control": 2.220446049250313e-16
+  },
+  "elapsed_seconds": 0.7463103809999438,
+  "platform": "Linux",
+  "new_unconditioned_native_trajectories": 0
+}
+Numerical agreement is implementation validation, not a physical accuracy or complete native compiler claim.

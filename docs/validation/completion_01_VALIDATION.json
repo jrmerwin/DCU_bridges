@@ -1,0 +1,10 @@
+{
+  "independent_GF3_information_pair_checks": 11229,
+  "independent_GF3_conditional_checks": 46,
+  "registry_bitmask_enumeration_matches": true,
+  "original_native_service_replay_steps": 512,
+  "independent_density_based_optimizer_checks": 896,
+  "max_rate_estimate_difference": 1.2016943223835952e-07,
+  "max_loglikelihood_difference": 3.4924596548080444e-10,
+  "scope": "Algorithm, finite-distribution and original-law checks, not physical verification or new laboratory data."
+}

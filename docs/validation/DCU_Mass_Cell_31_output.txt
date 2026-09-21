@@ -1,0 +1,86 @@
+CELL 31 — FOLLOWING CARRIERS; NOT SPATIAL MOTION OR PARTICLE IDENTITY
+Primary follow_any: uniform incident-newborn choice with independent observer RNG.
+Control follow_unique: advance only at a unique incident child. Fixed anchor unchanged.
+One pre-burst carrier/tick; all native births and charges retained.
+Stop distinct-reader protocols at first shared carrier; never stop native growth.
+Moving identity uses auditor tracks, not authenticated native parentage alone.
+
+replayed: no_relief/recorded_pair, 256 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       16/0                  0/0            0     0.00000
+ fixed          4       35/0                  5/0            0     0.00000
+ follow_any     3       21/1                  0/0           18     0.09527
+ follow_any     4       34/0                  0/2           15     0.09892
+ follow_unique  3       20/1                  0/0           17     0.09143
+ follow_unique  4       34/0                  0/2           15     0.09504
+
+replayed: no_relief/first_use_pair, 256 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       31/0                  1/0            0     0.00000
+ fixed          4       34/0                  4/0            0     0.00000
+ follow_any     3       31/0                  0/0           13     0.10038
+ follow_any     4       30/2                  0/0           16     0.09417
+ follow_unique  3       32/0                  0/0           13     0.09651
+ follow_unique  4       34/1                  0/0           16     0.09075
+
+replayed: relief_H6/recorded_pair, 256 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       21/0                  0/0            0     0.00000
+ fixed          4       21/0                  0/0            0     0.00000
+ follow_any     3       24/0                  0/0           10     0.14905
+ follow_any     4       15/0                  0/1            6     0.13703
+ follow_unique  3       24/0                  0/0           10     0.14154
+ follow_unique  4       12/0                  0/0            5     0.12839
+
+replayed: relief_H6/first_use_pair, 256 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       21/0                  2/0            0     0.00000
+ fixed          4       22/0                  0/0            0     0.00000
+ follow_any     3       24/0                  1/2           12     0.15048
+ follow_any     4       21/0                  1/0            5     0.13798
+ follow_unique  3       24/0                  1/2           12     0.13786
+ follow_unique  4       22/0                  1/0            4     0.12466
+
+fresh: no_relief/recorded_pair, 128 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       13/0                  0/0            0     0.00000
+ fixed          4       22/0                  0/0            0     0.00000
+ follow_any     3       19/0                  0/0            4     0.10842
+ follow_any     4       25/1                  0/0            7     0.10282
+ follow_unique  3       19/0                  0/0            4     0.10684
+ follow_unique  4       25/1                  0/0            7     0.09785
+
+fresh: no_relief/first_use_pair, 128 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3       12/0                  0/0            0     0.00000
+ fixed          4       23/0                  0/0            0     0.00000
+ follow_any     3       10/0                  0/0           11     0.09619
+ follow_any     4       11/0                  0/0            4     0.08945
+ follow_unique  3       10/0                  0/0           12     0.09493
+ follow_unique  4       11/0                  0/0            4     0.08605
+
+fresh: relief_H6/recorded_pair, 128 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3        7/0                  0/0            0     0.00000
+ fixed          4        9/0                  0/0            0     0.00000
+ follow_any     3        9/1                  0/1            4     0.15646
+ follow_any     4        8/0                  0/0            2     0.15387
+ follow_unique  3        9/1                  1/0            3     0.14256
+ follow_unique  4        8/0                  0/0            2     0.14205
+
+fresh: relief_H6/first_use_pair, 128 histories x 4096 updates
+ policy          B   receipts(pre/merge)   returns(pre/merge)   merged  hop/tick
+ fixed          3        7/0                  0/0            0     0.00000
+ fixed          4       10/0                  0/0            0     0.00000
+ follow_any     3        9/0                  0/0            8     0.14761
+ follow_any     4        7/0                  0/0            4     0.14858
+ follow_unique  3        8/0                  0/0            9     0.13787
+ follow_unique  4        6/0                  0/0            4     0.13763
+
+PASS: 1024 archived histories, both fixed receivers replayed exactly.
+Native updates evaluated: 6,291,456; observer policies share each history.
+Exact conditional-child laws: 75.
+Adaptive clocks: E[dN_A-dN_B|past]=0 while distinct; variance=2(p-p2).
+PASS: same source-local log and native events can hide different private continuation tracks.
+Continuation choices are observer rules, NOT autonomous personal identity.
+No source mass formula, neutron worker, service pool, spatial metric or SI scale changed.

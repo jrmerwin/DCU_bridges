@@ -1,0 +1,14 @@
+INDEPENDENT CELL 29 VALIDATION
+Primary cohort: 6 arms, 512 continuations/arm, 1024 native updates/continuation.
+Selection checks: 4 canonical ordered choices.
+Independent conditional interventions: 6; parentage, cost, relief and queues match.
+Independent bitmask/sequential-charge native updates: 12288
+Matched full saved checkpoints: 72
+Exact hypergeometric next-step laws: 6
+75-digit independent character-amplitude probabilities: 1152
+Maximum absolute probability difference: 5.551e-16
+Pooled means, standard errors and primary probability means checked in all 42 arm/checkpoint cases.
+No Monte Carlo outcome was required to fall within a chosen significance threshold.
+These are implementation tests, not evidence of physical gravity, a decay process, or SI calibration.
+
+Full source-prerequisite replay: completed twice; all Cell29 scientific output and serialized values identical.

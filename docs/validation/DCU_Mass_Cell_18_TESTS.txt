@@ -1,0 +1,16 @@
+Independent 80-digit Decimal checks against exact rational outputs:
+('structural_control', 'momentum', '0')
+('structural_control', 'beta', '0')
+('structural_control', 'kinetic', '2E-80')
+('structural_control', 'pion_ratio', '0')
+('structural_control', 'optical_frequency', '0')
+('structural_control', 'frequency_shift', '0')
+('screened_primary', 'momentum', '1E-79')
+('screened_primary', 'beta', '1E-79')
+('screened_primary', 'kinetic', '5.6E-79')
+('screened_primary', 'pion_ratio', '8E-80')
+('screened_primary', 'optical_frequency', '1E-79')
+('screened_primary', 'frequency_shift', '1E-79')
+PASS: 12 independent precision checks; 6 logarithmic sensitivity checks.
+PASS: changed Cell 17 muon recipe rejected explicitly.
+PASS: two executions agree; exact source/kinematic identities and calibration scaling hold.

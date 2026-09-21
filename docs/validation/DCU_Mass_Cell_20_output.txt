@@ -1,0 +1,51 @@
+CELL 20 — FROZEN INPUTS -> COHERENT VACUUM ELECTRON-SURVIVAL CURVES
+Imported: unitary three-flavor relativistic phase propagation; no matter or detector law.
+s12^2=167/548; s13^2=400/18769; R=dm32/dm21=33.
+  dm21_eV2     = 7.530538062369e-05
+  dm32_eV2     = 2.485077560582e-03
+  dm31_eV2     = 2.560382941206e-03
+  dm_ee_eV2    = 2.537434038716e-03
+Phase constant (km/MeV): 1266.932679039099; earlier electron unit reused, no new mass/length fit.
+Electron-row weights: 0.680438372328, 0.298249890233, 0.021311737439
+Solar oscillatory amplitude=0.811762679428; sin^2(2theta13)=0.083430189147.
+Complete phase average=0.552403565713 (NOT a solar matter prediction).
+
+Examples: ALL probabilities are calculated; control is NuFIT6.0 IC24+SK NO, NOT counts.
+ L(km) E_nu(MeV)      source P_ee    fit-control P_ee   difference (percentage points)
+   1.6       4.0      0.921999976         0.920220688                +0.177929
+  52.5       2.0      0.689513617         0.638553653                +5.095996
+  52.5       3.0      0.168353027         0.148849204                +1.950382
+  52.5       4.0      0.205942430         0.226288202                -2.034577
+  52.5       6.0      0.542188436         0.522068608                +2.011983
+  52.5       8.0      0.673001325         0.649089399                +2.391193
+
+Fixed-grid differences from the primary FIT CURVE, no probability/energy refit:
+  L/E in [0,1] km/MeV; 2001 points:
+    source                         RMS=0.310060 pp; max=0.544350 pp
+    IC19_without_SK_NO             RMS=0.112156 pp; max=0.209730 pp
+    source_angles_fit_splittings   RMS=0.196898 pp; max=0.321330 pp
+    fit_angles_source_splittings   RMS=0.200484 pp; max=0.386335 pp
+  L/E in [0,40] km/MeV; 16001 points:
+    source                         RMS=3.707516 pp; max=8.923203 pp
+    IC19_without_SK_NO             RMS=2.836816 pp; max=6.875107 pp
+    source_angles_fit_splittings   RMS=0.344004 pp; max=0.538000 pp
+    fit_angles_source_splittings   RMS=3.750270 pp; max=8.863582 pp
+
+Exact-ratio VACUUM REVIVAL at L/E=32.928377071157 km/MeV: P_ee=1.
+  IC24_with_SK_NO: calculated P_ee at same L/E = 0.926316005761.
+  IC19_without_SK_NO: calculated P_ee at same L/E = 0.931882459557.
+  Source, Gaussian L/E spread 0%: mean P_ee=1.000000000000.
+  Source, Gaussian L/E spread 1%: mean P_ee=0.961926931651.
+  Source, Gaussian L/E spread 3%: mean P_ee=0.951137978227.
+The Gaussian spreads are sensitivity cases, not a fitted detector or decoherence law.
+
+Daya Bay final-result parameter comparison (overlaps NuFIT inputs):
+  sin2_2theta13: source=0.0834301891468, data-summary=0.0851 +/- 0.0024; difference=-1.962175%, quoted-error units=-0.696
+  dm32_eV2: source=0.00248507756058, data-summary=0.002466 +/- 6e-05; difference=+0.773624%, quoted-error units=+0.318
+PASS: 5005 amplitude/probability checks, common-mass shift, limits, recurrence,
+      unit scaling, exact weight normalization, doubled grids, and unchanged inputs.
+No CP phase/theta23 required for P_ee; no m1=0 measurement, mass-sum, or native-clock test.
+No reactor flux, cross section, multiple-baseline weighting, efficiency, matter, or response folding.
+Fit-curve agreement is NOT an independent event-spectrum validation or joint likelihood.
+
+Execution seconds: 0.195

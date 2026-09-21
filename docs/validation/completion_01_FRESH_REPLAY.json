@@ -1,0 +1,16 @@
+{
+  "38": {
+    "fresh_directory_exact_json_match": true,
+    "elapsed_seconds": 4.4313373920001595,
+    "sha256": "eb7df5cc3138747c1aa67aee18266ec999509efa784e58c357441af828e4bdd4",
+    "result_bytes": 1710725,
+    "cell_bytes": 16786
+  },
+  "39": {
+    "fresh_directory_exact_json_match": true,
+    "elapsed_seconds": 1.766787160999911,
+    "sha256": "dea9656567e11f4b2339eea7f40e2834ceb581708470fe091eff8347705c3048",
+    "result_bytes": 1072039,
+    "cell_bytes": 14219
+  }
+}

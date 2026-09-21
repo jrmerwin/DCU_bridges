@@ -1,0 +1,341 @@
+{
+  "protocol": "source-fixed angle ladder + imported pion-specific pointlike QED",
+  "primary_NuFIT_variant": "IC24_with_SK_NO",
+  "angle_predictions": {
+    "weak": {
+      "numerator": 127,
+      "denominator": 548,
+      "decimal": 0.23175182481751824
+    },
+    "solar": {
+      "numerator": 167,
+      "denominator": 548,
+      "decimal": 0.30474452554744524
+    },
+    "atmospheric": {
+      "numerator": 76,
+      "denominator": 137,
+      "decimal": 0.5547445255474452
+    },
+    "reactor": {
+      "numerator": 400,
+      "denominator": 18769,
+      "decimal": 0.021311737439394747
+    }
+  },
+  "delta0": {
+    "numerator": 5,
+    "denominator": 137,
+    "decimal": 0.0364963503649635
+  },
+  "angle_comparisons": [
+    {
+      "variant": "IC24_with_SK_NO",
+      "quantity": "solar",
+      "prediction": 0.30474452554744524,
+      "central": 0.308,
+      "error_minus": 0.011,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.275,
+        0.345
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.010569722248554347,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC24_with_SK_NO",
+      "quantity": "atmospheric",
+      "prediction": 0.5547445255474452,
+      "central": 0.47,
+      "error_minus": 0.013,
+      "error_plus": 0.017,
+      "marginal_3sigma": [
+        0.435,
+        0.585
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": 0.18030750116477723,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC24_with_SK_NO",
+      "quantity": "reactor",
+      "prediction": 0.021311737439394747,
+      "central": 0.02215,
+      "error_minus": 0.00058,
+      "error_plus": 0.00056,
+      "marginal_3sigma": [
+        0.0203,
+        0.02388
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.03784481086253966,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_NO",
+      "quantity": "solar",
+      "prediction": 0.30474452554744524,
+      "central": 0.307,
+      "error_minus": 0.011,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.275,
+        0.345
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.007346822321025237,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_NO",
+      "quantity": "atmospheric",
+      "prediction": 0.5547445255474452,
+      "central": 0.561,
+      "error_minus": 0.015,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.43,
+        0.596
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.0111505783468,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_NO",
+      "quantity": "reactor",
+      "prediction": 0.021311737439394747,
+      "central": 0.02195,
+      "error_minus": 0.00058,
+      "error_plus": 0.00054,
+      "marginal_3sigma": [
+        0.02023,
+        0.02376
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.029078020984294017,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC24_with_SK_IO",
+      "quantity": "solar",
+      "prediction": 0.30474452554744524,
+      "central": 0.308,
+      "error_minus": 0.011,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.275,
+        0.345
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.010569722248554347,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC24_with_SK_IO",
+      "quantity": "atmospheric",
+      "prediction": 0.5547445255474452,
+      "central": 0.55,
+      "error_minus": 0.015,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.44,
+        0.584
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": 0.00862641008626408,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC24_with_SK_IO",
+      "quantity": "reactor",
+      "prediction": 0.021311737439394747,
+      "central": 0.02231,
+      "error_minus": 0.00056,
+      "error_plus": 0.00056,
+      "marginal_3sigma": [
+        0.0206,
+        0.02409
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.044745072192077684,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_IO",
+      "quantity": "solar",
+      "prediction": 0.30474452554744524,
+      "central": 0.308,
+      "error_minus": 0.011,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.275,
+        0.345
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.010569722248554347,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_IO",
+      "quantity": "atmospheric",
+      "prediction": 0.5547445255474452,
+      "central": 0.562,
+      "error_minus": 0.015,
+      "error_plus": 0.012,
+      "marginal_3sigma": [
+        0.437,
+        0.597
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.012910096890666911,
+      "gaussian_pull": null
+    },
+    {
+      "variant": "IC19_without_SK_IO",
+      "quantity": "reactor",
+      "prediction": 0.021311737439394747,
+      "central": 0.02224,
+      "error_minus": 0.00057,
+      "error_plus": 0.00056,
+      "marginal_3sigma": [
+        0.02053,
+        0.02397
+      ],
+      "in_marginal_3sigma": true,
+      "fractional_error": -0.0417384244876462,
+      "gaussian_pull": null
+    }
+  ],
+  "supplementary_angle_comparisons": [
+    {
+      "dataset": "weak_PDG2025",
+      "quantity": "weak",
+      "prediction": 0.23175182481751824,
+      "central": 0.23148,
+      "sigma": 0.00013,
+      "fractional_error": 0.001174290727139482,
+      "quoted_error_units": 2.0909601347557802
+    },
+    {
+      "dataset": "solar_JUNO_59days",
+      "quantity": "solar",
+      "prediction": 0.30474452554744524,
+      "central": 0.3092,
+      "sigma": 0.0087,
+      "fractional_error": -0.01440968451667124,
+      "quoted_error_units": -0.5121235002936473
+    }
+  ],
+  "pion_predictions": {
+    "structural_control": {
+      "tree": {
+        "numerator": 18939904,
+        "denominator": 150222132225,
+        "decimal": 0.0001260793181369051
+      },
+      "relative_pointlike_QED": -0.03924120996071468,
+      "corrected": 0.00012113181314219108
+    },
+    "screened_primary": {
+      "tree": {
+        "numerator": 892416008755769245696,
+        "denominator": 6957746776976114738049025,
+        "decimal": 0.00012826221438654015
+      },
+      "relative_pointlike_QED": -0.03928708109357763,
+      "corrected": 0.00012322316636869432
+    },
+    "measured_mass_bridge_control": {
+      "tree": {
+        "numerator": 34844452523169155212257579883259315952134565471889000000000000000000000000000000000000000000,
+        "denominator": 271512584717393381028147492892821976010185476916145366374760604833074892798936169600948343800121,
+        "decimal": 0.00012833457631231847
+      },
+      "relative_pointlike_QED": -0.03928778606151291,
+      "corrected": 0.0001232925949338652
+    }
+  },
+  "pion_comparisons": {
+    "structural_control": {
+      "tree_error": 0.02278995811556023,
+      "corrected_error": -0.01734555737656307
+    },
+    "screened_primary": {
+      "tree_error": 0.04049821032319428,
+      "corrected_error": -0.00037992724349544815
+    },
+    "measured_mass_bridge_control": {
+      "tree_error": 0.04108523008289505,
+      "corrected_error": 0.00018329629159730132
+    }
+  },
+  "qed_input": {
+    "alpha_inverse": {
+      "numerator": 137035999177,
+      "denominator": 1000000000,
+      "decimal": 137.035999177
+    },
+    "inverse_sigma": {
+      "numerator": 21,
+      "denominator": 1000000000,
+      "decimal": 2.1e-08
+    }
+  },
+  "baryon_preflight": {
+    "r_lambda": {
+      "numerator": 299116,
+      "denominator": 137,
+      "decimal": 2183.3284671532847
+    },
+    "predicted_mass_MeV": {
+      "numerator": 3821199053364751,
+      "denominator": 3425000000000,
+      "decimal": 1115.6785557269345
+    },
+    "electron_total_endpoint_MeV": {
+      "numerator": 1338408018371237709949,
+      "denominator": 8195778400000000000,
+      "decimal": 163.30456401447333
+    },
+    "electron_kinetic_endpoint_MeV": {
+      "numerator": 1334219984208749942853,
+      "denominator": 8195778400000000000,
+      "decimal": 162.79356506378332
+    },
+    "rate": null,
+    "reason": "Hadronic f_i(q^2), g_i(q^2), and V_us not supplied",
+    "endpoint_compared_to_data": false,
+    "Xi_bases_status": "Source Eq. (24)-(25) bases were obtained from experimental masses"
+  },
+  "lambda_mass_check": {
+    "observed_MeV": {
+      "numerator": 1115683,
+      "denominator": 1000,
+      "decimal": 1115.683
+    },
+    "sigma_MeV": {
+      "numerator": 3,
+      "denominator": 500,
+      "decimal": 0.006
+    },
+    "prediction_minus_observed_keV": {
+      "numerator": -15221635249,
+      "denominator": 3425000000,
+      "decimal": -4.44427306540146
+    }
+  },
+  "helpers": {},
+  "full_PMNS_predicted": false,
+  "hyperon_rate_predicted": false,
+  "higher_pion_corrections_applied": false,
+  "weak_angle_QED_factor_applied": false,
+  "theoretical_error_assigned": false,
+  "joint_significance_computed": false,
+  "native_dynamics_changed": false,
+  "prior_prescriptions_changed": false,
+  "truly_blinded": false
+}

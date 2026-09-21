@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the working manuscript and specify the experiment/cell used."
+title: "From Registry Structure to Physical Observables: Horizontal Transfers and Operational Bridges in the Distinction Combinatorial Universe"
+authors:
+  - family-names: Merwin
+    given-names: Jason
+type: software
+version: "0.1-latex"
+abstract: "Working-manuscript source, figures, frozen inputs and offline reproduction of bounded DCU horizontal transfers and vertical operational measurements. No physical neutron identification or complete native spacetime mapping is claimed."
+keywords:
+  - distinction registry
+  - reproducibility
+  - quantum channels
+  - information theory
+  - finite service
+preferred-citation:
+  type: unpublished
+  title: "From Registry Structure to Physical Observables: Horizontal Transfers and Operational Bridges in the Distinction Combinatorial Universe"
+  authors:
+    - family-names: Merwin
+      given-names: Jason
+  year: 2026
+  notes: "Working manuscript 0.1, LaTeX edition; no DOI or publication venue assigned."

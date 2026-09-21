@@ -1,0 +1,12 @@
+test_conditional_information_from_finite_field_rank (test_release.ReleaseTests.test_conditional_information_from_finite_field_rank) ... ok
+test_figures_and_citations_resolve (test_release.ReleaseTests.test_figures_and_citations_resolve) ... ok
+test_native_events_independent_charge_reconstruction (test_release.ReleaseTests.test_native_events_independent_charge_reconstruction) ... ok
+test_one_step_sampler_exact_enumeration (test_release.ReleaseTests.test_one_step_sampler_exact_enumeration) ... ok
+test_outcome_counts_and_estimation_statistics (test_release.ReleaseTests.test_outcome_counts_and_estimation_statistics) ... ok
+test_register_bundle_aliases (test_release.ReleaseTests.test_register_bundle_aliases) ... ok
+test_registry_incidence_and_counts (test_release.ReleaseTests.test_registry_incidence_and_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.141s
+
+OK

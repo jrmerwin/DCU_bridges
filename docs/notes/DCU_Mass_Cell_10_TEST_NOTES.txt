@@ -1,0 +1,11 @@
+70 certificates: independent 4x4 determinant-by-permutations verifies the exact Schur-complement polynomial at four rational values each.
+3600 release constructions: exact center, radical product, and closure polynomial invariant under every five-vertex permutation.
+All 70 certificates pass exact squared-distance scale covariance.
+Changing the dropped distance while leaving the nine retained ones fixed changes the diagnostic polynomial but not either completion; no held-out-value fit.
+All actual witnessed constraints checked against both explicit coordinate completions; missing entries remain None.
+Primary: 2 K3 and 2 K4 candidates fit; 3 K5s fail (exact PSD Gram rank4).
+30 actual nonK5 controls fit; 20 have one missing edge and 10 have two.
+30 mathematical one-constraint releases from K5 fit; this is not native history deletion.
+20 native last-edge constructions tested as separate cloned histories; only two distinct added pairs, so these are not independent samples.
+Feasibility certificates use positive rational base Gram and height squares; floating coordinates are secondary validation, not the feasibility decision.
+No S metric, calibration, earlier cell state, or native formation rule changed. No force, energy, or mass inferred.
